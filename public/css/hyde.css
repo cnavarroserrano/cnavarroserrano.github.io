@@ -1,0 +1,501 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+/* Define a new type of font: Rotis Semi Sans (RSS) */
+
+@font-face {
+    font-family: "RSS_extra_bold";
+    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Extra Bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RSS_bold";
+    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RSS_italic";
+    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Italic.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RSS_light_italic";
+    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Light Italic.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Define a new type of fonts: CooperHewitt (CH) */
+
+@font-face {
+    font-family: "CH_heavy";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CH_heavy_itaic";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-HeavyItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "CH_bold";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CH_bold_italic";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-BoldItalic.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "CH_medium";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-Medium.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CH_medium_italic";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-MediumItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "CH_book";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-Book.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CH_book_italic";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-BookItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "CH_semibold";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-Semibold.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CH_semibold_italic";
+    src: url('/fonts/cooper_hewitt/CooperHewitt-SemiboldItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal; 
+}
+
+
+/* Define the standard text */
+
+html {
+  font-family: 'CH_book';
+  font_style: normal; 
+  font-weight: normal;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*
+ * Filter for svg icons
+ * Define filter.green for turning svg icons into green ?
+ * Check more: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element
+ */
+/*
+ * .filter-green{
+ *     filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+ * }
+ */
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+  font-family: 'CH_semibold';
+  font_style: normal; 
+  font-weight: normal;
+  text-align: center; /* Centers the sidebar content in the mobile phone version */
+  /* text-align: right; */
+  padding: 2rem 1rem; /*Sets top and bottom padding at 2rem, left-right padding at 1rem*/
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+  /* background-image: url("../../photos/PELLO (53).jpg"); */
+  background-image: 
+      linear-gradient(to bottom, rgba(32, 32, 32, 0.0), rgba(245, 246, 252, 0.0), rgba(32, 32, 32, 0.85)), /*Gradient from transparent to gray*/
+      url("../../photos/PELLO (88) black_white.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*@media establishes the website behaviour for desktop browsers*/
+@media (min-width: 65em) {
+  .sidebar {
+    position: fixed; /*relative, sticky, absolute, fixed... check: https://www.w3schools.com/css/css_positioning.asp*/
+    bottom: 0;
+    top: 0; 
+    left: 0;
+    width: 16rem; /* Establishes the width of the left sidebar */
+    text-align: right;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+/* a hover is when you move the mouse over a hyperlink and it pops up*/
+a:hover,
+a:focus {
+  color: brightness(2.0);
+  /*color: gray; */
+  /*text-decoration: none;*/
+  /* text-decoration-color: gray; */
+  /*background-color: gold*/
+}
+
+/* Sidebar About section */
+
+
+.sidebar-about {
+  /* Make the sidebar about float in mobile mode.*/
+  position: relative; /*relative, sticky, absolute, fixed... check: https://www.w3schools.com/css/css_positioning.asp*/
+  padding-top: 16rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*@media establishes the behaviour of sidebar-about in desktop mode*/
+@media (min-width: 65em) {
+  .sidebar-about {
+    /* Make the sidebar about section to locate in the bottom of the page.*/
+    position: absolute; /*relative, sticky, absolute, fixed... check: https://www.w3schools.com/css/css_positioning.asp*/
+    bottom: 0;
+    padding: 2rem 1rem;
+  }
+}
+
+/* sidebar-about h1 sets up the characteristics of the highest level header (h1) of the sidebar about type */
+
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  /* The following line changes the font type of the website title in the sidebar */
+  /* font-family: 'Abril Fatface', serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /*font-family: 'PT Sans', sans-serif; */
+  font-family: 'CH_heavy'; 
+  font-style: normal;
+  font-weight: normal; 
+  font-size: 3.25rem;
+}
+
+/* sidebar-about p sets up the characteristics of the paragraph (p) of the sidebar about type */
+
+.sidebar-about p {
+  font-family: 'CH_semibold';
+  font_style: normal; 
+  font-weight: normal;
+  font-size: 3.25rem;
+  color: #eee; /*light gray colour*/
+}
+
+/* Sidebar about links */
+
+.sidebar-about a {
+  color: #eee; /*light gray colour*/
+  text-decoration: none;
+}
+
+/* a hover is when you move the mouse over a hyperlink and it pops up*/
+/* Applies to text and icon hyperlinks*/
+a:hover,
+a:focus {
+  filter: brightness(2.0);
+  /*color: gray; */
+  /*text-decoration: none;*/
+  /* text-decoration-color: gray; */
+  /*background-color: gold*/
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.sidebar-nav-item {
+  color: #fff;
+  text-decoration: none;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  color: green;
+  /*color: gray;*/
+  /* text-decoration: underline; */
+  /*text-decoration-color: gold; */
+}
+a.sidebar-nav-item:active {
+  font-weight: bold;
+}
+
+/*Post title*/
+.post-title a {
+  text-decoration: none;
+}
+.post-title a:hover {
+  color: green;
+  /*color: gray;*/
+  /* text-decoration: underline; */
+  /* text-decoration-color: gold; */
+}
+
+/*Recent post titles*/
+.recent-posts a {
+  text-decoration: none;
+}
+.recent-posts a:hover {
+  color: green;
+  /*color: gray;*/
+  /* text-decoration: underline; */
+  /*text-decoration-color: gold; */
+}
+
+/*Post tags*/
+.post-tags a {
+  text-decoration: none;
+}
+.post-tags a:hover {
+  color: green;
+  /*color: gray;*/
+  /*text-decoration: underline; */
+  text-decoration-color: gold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+  text-align: justify;
+}
+
+/* @media Set up content behaviour for desktop mode (wide enough screens) */
+
+@media (min-width: 65em) {
+  .content {
+    /*max-width: 40rem; */
+    max-width: 45rem;
+    margin-left: 22rem;
+    margin-right: 4rem;
+    text-align: justify;
+  }
+}
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
+
+
+/*Icon Setting*/
+.fa-envelope:hover {
+  color: gold;
+}
+.fa-github:hover {
+  color: gold;
+}
+.fa-linkedin:hover {
+  color: gold;
+}
+.fa-youtube:hover {
+  color: gold;
+}
+.fa-twitter:hover {
+  color: gold;
+}
