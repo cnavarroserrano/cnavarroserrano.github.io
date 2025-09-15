@@ -66,12 +66,12 @@ text-align: justify
   <dd class="indented">
     <!-- <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br> -->
     <p>
-      <a href="papers/main.pdf" target="_blank">Draft</a> |
-      <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> |
+      <a href="papers/main.pdf" target="_blank">Draft</a> <!-- | -->
+      <!-- <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> | -->
     </p>
-    <div id="abstract_coal" style="display:none;">
+    <!-- <div id="abstract_coal" style="display:none;"> -->
       <p>Abstract will come here.</p>
-    </div>
+    <!-- </div> -->
   </dd>
 </dl>
 
