@@ -1,0 +1,13 @@
+/* Enlace con icono SVG alineado */
+a.icon-link{
+  display:inline-flex;
+  align-items:center;
+  gap:.5ch;         /* separación icono-texto */
+  line-height:1;    /* evita salto vertical raro */
+}
+a.icon-link .icon{
+  width:1em;        /* ~tamaño de letra */
+  height:1em;
+  display:block;    /* elimina espacio de línea del <img> */
+  flex:0 0 auto;
+}
