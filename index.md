@@ -22,12 +22,12 @@ text-align: justify
 <!---  Blank line  --->
 <!--- <br/> --->
 
-<h3 id="welcome">Ongi Etorri!</h3>
-<br/>
+<!--- <h3 id="welcome">Ongi Etorri!</h3> --->
+<!--- <br/> --->
 <dl>
   <dd class="indented">
-    I am an Assistant Professor at the <a href="https://econ.univie.ac.at" target="_blank">Department of Economics at the University of Vienna</a> (non-tenure track).
-    I work on energy, environmental and political economy issues using the empirical industrial organization toolkit. 
+    I am a PhD candidate at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
+    My research interests lie in political economy, economic history and development economics. 
     <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
     You can find my <strong><a href="resume/pello_resume.pdf" target="_blank">CV here</a></strong>.
   </dd>
