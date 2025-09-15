@@ -33,8 +33,6 @@ text-align: justify
   </dd>
 </dl>
 
-<!--  My main interests lie in the fields of industrial organization, energy/environmental economics and political economy. -->
-
 <!-- Social buttons: twitter, github, linkedin... -->
 <!---  target="_blank": The links pop um in new tabs  --->
 <!---  style="float: left; margin-right: 30px;": Allows for space between icons  --->
@@ -52,6 +50,22 @@ text-align: justify
     </ul>
 </dd>
 --->
+
+<!---  Blank line  --->
+<br/>
+<h3>Job Market Paper</h3>
+<br/>
+
+<dl>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Title of the Job Market Paper</p></strong></dt>
+  <dd class="indented">
+  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
+  <p>Abstract will come here.</p>
+  </dd>
+</dl>
+
+
 <!---  Blank line  --->
 
 <br/>
@@ -59,22 +73,24 @@ text-align: justify
 <br/>
 
 <dl>
-  <dt class="indented">
-    <strong><p class="indented" style="margin: 0;">JOB MARKET PAPER</p></strong>
-    <strong><p class="indented" style="margin: 0;">Title of the Job Market Paper</p></strong>
-  </dt>
-  <dd class="indented">
-    <!-- <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br> -->
-    <!-- <p> -->
-    <a class="paper" href="{{ '/papers/main.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-    <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
-    </a>
-    <!-- <a href="resume/pello_resume.pdf" target="_blank"><img src="/icons/file-solid.svg" style="display: inline-block; margin-right: 8px;" width="15" height="15" class="filter-gray-verylight"></a> -->
-    <!-- <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> | -->
-    <!-- </p> -->
-    <!-- <div id="abstract_coal" style="display:none;"> -->
-      <p>Abstract will come here.</p>
-    <!-- </div> -->
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
+  <dd class="indented"><p><i>with Alexsandros Cavgias.</i></p>
+  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
+  <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
+  We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
+  Second, Geo-RDD estimates show that former British colonies have significantly greater sexual prejudice than former Portuguese colonies in Southern and Eastern Africa, where local norms did not systematically condemn same-sex relations.
+  Third, Geo-RDD estimates indicate that former British and French colonies display similar levels of sexual prejudice in Western Africa, where a higher share of the population adheres to religious norms condemning same-sex acts.
+  Fourth, additional evidence from areas in South America and Southeast Asia not characterized by homophobic social norms before colonization reinforces the external validity of our findings from Southeastern Africa.
+  Finally, mechanisms analysis suggests that the persistence of sodomy laws fully accounts for the negative association between British colonial origin and contemporary sexual prejudice across countries.
+  Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
+  </dd>
+
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">HOGAR SÍ TITLE</p></strong></dt>
+  <dd class="indented"><p><i>with Miguel Almunia and Begoña Varela Merino.</i></p>
+  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
+  <p>Abstract will come here.</p>
   </dd>
 </dl>
 
@@ -82,16 +98,14 @@ text-align: justify
 <!---  Blank line  --->
 <br/>
 
-<h3>Work in Progress</h3>
+<h3 id="working-in-progress">Work in Progress</h3>
 <br/>
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with Pello Aspuru.</i></p></dd>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Good and Bad Discretion in Procurement</p></strong></dt>
-  <dd class="indented"><p><i>with Juan-José Ganuza and Gerard Llobet.</i></p></dd>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Optimal Regulation of User-Generated Content Digital Platforms</p></strong></dt>
-  <dd class="indented"><p><i>CEMFI Master Thesis</i></p></dd>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Title with Alvaro</p></strong></dt>
+  <dd class="indented"><p><i>with Álvaro Sánchez Leache.</i></p></dd>
 </dl>
 
 <!---  Blank line  --->
