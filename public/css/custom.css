@@ -1,15 +1,18 @@
-/* enlace en línea */
-a.icon-link{
-  display:inline;
-  line-height:1;       /* evita caja de línea alta */
-  white-space:nowrap;  /* evita salto entre icono y texto */
+/* el <a> se comporta como un bloque en línea */
+a.icon-link{ display:inline-block; }
+
+/* bloque interno que alinea icono+texto verticalmente */
+a.icon-link .unit{
+  display:flex;
+  align-items:center;
+  line-height:1;     /* elimina huecos de línea */
+  gap:.5ch;          /* separación */
 }
 
-/* icono SVG en línea y alineado */
+/* el SVG como bloque evita el “salto” por baseline */
 a.icon-link .icon{
   width:1em;
   height:1em;
-  display:inline-block !important; /* anula img {display:block} del tema */
-  vertical-align:-0.125em;         /* ajusta entre -0.10em y -0.20em si hace falta */
-  margin-right:.5ch;
+  display:block;
+  flex:0 0 auto;
 }
