@@ -67,10 +67,11 @@ text-align: justify
     <!-- <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br> -->
     <!-- <p> -->
     <a href="{{ '/papers/main.pdf' | relative_url }}" target="_blank">
-    <object data="/icons/github.svg"  type="image/svg+xml">
+    <img src="/icons/file-solid.svg" width="15" height="15" type="image/svg+xml">
         <span>Draft</span>
     </object>
     </a>
+    <!-- <a href="resume/pello_resume.pdf" target="_blank"><img src="/icons/file-solid.svg" style="display: inline-block; margin-right: 8px;" width="15" height="15" class="filter-gray-verylight"></a> -->
     <!-- <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> | -->
     <!-- </p> -->
     <!-- <div id="abstract_coal" style="display:none;"> -->
