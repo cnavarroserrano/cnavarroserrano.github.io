@@ -1,18 +1,12 @@
 /* el <a> se comporta como un bloque en línea */
-a.icon-link{ display:inline-block; }
-
-/* bloque interno que alinea icono+texto verticalmente */
-a.icon-link .unit{
-  display:flex;
-  align-items:center;
-  line-height:1;     /* elimina huecos de línea */
-  gap:.5ch;          /* separación */
+a.paper::before,{
+  font-family: "CH_semibold";
+  font-size:80%;
+  color:#d35400;
+  margin:0px;
+  padding:0px;
+  margin-right:6px;
+  margin-left:3px;
 }
 
-/* el SVG como bloque evita el “salto” por baseline */
-a.icon-link .icon{
-  width:1em;
-  height:1em;
-  display:block;
-  flex:0 0 auto;
-}
+a.paper::before{    content: "\f0f6 ";}
