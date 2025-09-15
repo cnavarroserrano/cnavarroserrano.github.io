@@ -1,17 +1,11 @@
-/* Trata icono+texto como UNA unidad sin salto */
+/* Enlace "paper" con icono SVG a la izquierda */
 a.paper{
-  display:inline-flex !important;
-  align-items:center;
-  gap:.5ch;
-  white-space:nowrap;   /* evita que "Draft" baje de línea */
-  line-height:1;        /* caja de línea compacta */
-  vertical-align:middle;
-}
-
-/* Icono SVG del enlace */
-a.paper > .icon{
-  width:1em;
-  height:1em;
-  display:block;        /* sin espacio de baseline */
-  flex:0 0 auto;
+  display:inline-block;
+  white-space:nowrap;
+  line-height:1.2;
+  padding-left: calc(1em + .5ch);
+  background-image: url("{{ '/icons/file-solid.svg' | relative_url }}");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 1em 1em;
 }
