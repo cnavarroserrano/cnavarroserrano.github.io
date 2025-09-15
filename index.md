@@ -60,24 +60,17 @@ text-align: justify
 
 <dl>
   <dt class="indented">
-    <strong><p class="indented" style="margin: 0;">Delaying the Coal Twilight: Local Mines, Regulators, and the Energy Transition</p></strong>
+    <strong><p class="indented" style="margin: 0;">JOB MARKET PAPER</p></strong>
+    <strong><p class="indented" style="margin: 0;">Title of the Job Market Paper</p></strong>
   </dt>
   <dd class="indented">
-    <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br>
+    <!-- <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br> -->
     <p>
       <a href="papers/main.pdf" target="_blank">Draft</a> |
       <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> |
-      <a href="https://github.com/pelloaspuru/coal" target="_blank">Code</a>
     </p>
     <div id="abstract_coal" style="display:none;">
-      <p>Coal is the first source of electricity worldwide, yet it is also the most polluting.
-      Since 2010, the US has experienced a sharp reduction in natural gas prices, a close coal substitute.
-      However, coal power plants invested $29 billion in upgrades between 2008 and 2019. 
-      This paper aims to reconcile these two seemingly contradictory facts through a novel mechanism: the protection of local coal mines by electricity regulators.
-      According to this mechanism, regulators from mining states encouraged coal plant upgrades that enabled the plants to keep procuring from the state's mines.
-      Coal plant upgrades often translated into higher electricity prices, harming consumer welfare.
-      Moreover, the upgrades extended the lifetime of the coal power plants, delaying their replacement and preventing substantial CO2 emission reductions.
-      This paper combines reduced-form and structural estimation methods to find that, absent the coal protection channel, total US coal plant capacity in 2030 would have been 7% lower.</p>
+      <p>Abstract will come here.</p>
     </div>
   </dd>
 </dl>
@@ -91,7 +84,7 @@ text-align: justify
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
-  <dd class="indented"><p><i>with Cristian Navarro Serrano.</i></p></dd>
+  <dd class="indented"><p><i>with Pello Aspuru.</i></p></dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Good and Bad Discretion in Procurement</p></strong></dt>
   <dd class="indented"><p><i>with Juan-José Ganuza and Gerard Llobet.</i></p></dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Optimal Regulation of User-Generated Content Digital Platforms</p></strong></dt>
