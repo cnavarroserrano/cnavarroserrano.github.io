@@ -1,12 +1,17 @@
-/* el <a> se comporta como un bloque en línea */
-a.paper::before,{
-  font-family: "CH_semibold";
-  font-size:80%;
-  color:#d35400;
-  margin:0px;
-  padding:0px;
-  margin-right:6px;
-  margin-left:3px;
+/* Trata icono+texto como UNA unidad sin salto */
+a.paper{
+  display:inline-flex !important;
+  align-items:center;
+  gap:.5ch;
+  white-space:nowrap;   /* evita que "Draft" baje de línea */
+  line-height:1;        /* caja de línea compacta */
+  vertical-align:middle;
 }
 
-a.paper::before{    content: "\f0f6 ";}
+/* Icono SVG del enlace */
+a.paper > .icon{
+  width:1em;
+  height:1em;
+  display:block;        /* sin espacio de baseline */
+  flex:0 0 auto;
+}
