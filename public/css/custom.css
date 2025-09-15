@@ -1,0 +1,8 @@
+a.paper{
+  display:inline-flex;      /* icono + texto en una sola caja */
+  align-items:center;       /* alineación vertical perfecta */
+  gap:.5ch;                 /* separación */
+  line-height:1;            /* evita “bote” vertical */
+  white-space:nowrap;       /* no se parte en dos líneas */
+}
+a.paper i{ line-height:1; } /* asegura altura del icono */
