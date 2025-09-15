@@ -66,7 +66,7 @@ text-align: justify
   <dd class="indented">
     <!-- <i>Best paper in regulatory economics, International Industrial Organization Conference 2025.</i> <br> -->
     <p>
-      <a href="papers/main.pdf" target="_blank">Draft</a> <!-- | -->
+      <a href="papers/main.pdf" target="_blank"><img src="/icons/file-solid.svg" style="display: inline-block; margin-right: 8px;" width="15" height="15" class="filter-gray-verylight">Draft</a> <!-- | -->
       <!-- <a href="javascript:void(0);" onclick="toggle('abstract_coal')">Abstract</a> | -->
     </p>
     <!-- <div id="abstract_coal" style="display:none;"> -->
