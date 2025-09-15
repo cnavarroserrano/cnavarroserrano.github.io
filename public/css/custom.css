@@ -1,8 +1,8 @@
-a.paper{
-  display:inline-flex;      /* icono + texto en una sola caja */
-  align-items:center;       /* alineación vertical perfecta */
-  gap:.5ch;                 /* separación */
-  line-height:1;            /* evita “bote” vertical */
-  white-space:nowrap;       /* no se parte en dos líneas */
-}
-a.paper i{ line-height:1; } /* asegura altura del icono */
+/* Asegura FA solo en iconos, no en el resto de texto */
+.fa-solid, .fa-regular{ font-family:"Font Awesome 6 Free" !important; }
+.fa-solid{ font-weight:900 !important; }
+.fa-regular{ font-weight:400 !important; }
+.fa-brands{ font-family:"Font Awesome 6 Brands" !important; font-weight:400 !important; }
+
+/* Enlace con icono y texto alineados */
+a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; white-space:nowrap; }
