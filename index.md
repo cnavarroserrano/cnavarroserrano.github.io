@@ -29,7 +29,7 @@ text-align: justify
     I am a PhD candidate at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history and development economics. 
     <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
-    You can find my <strong><a href="resume/pello_resume.pdf" target="_blank">CV here</a></strong>.
+    You can find my <strong><a href="resume/cv_cnavarro_sep25.pdf" target="_blank">CV here</a></strong>.
   </dd>
 </dl>
 
@@ -58,10 +58,10 @@ text-align: justify
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Title of the Job Market Paper</p></strong></dt>
-  <dd class="indented">
-  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
+  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>Abstract will come here.</p>
+  <p>Abstract of purge will come here.</p>
   </dd>
 </dl>
 
@@ -74,8 +74,8 @@ text-align: justify
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://github.com/poole/hyde" target="_blank">Alexsandros Cavgias</a>.</i></p>
-  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <dd class="indented"><p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
+  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
   <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
   We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
@@ -87,14 +87,13 @@ text-align: justify
   </dd>
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">HOGAR SÍ TITLE</p></strong></dt>
-  <dd class="indented"><p><i>with Miguel Almunia and Begoña Varela Merino.</i></p>
-  <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+  <dd class="indented"><p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
+  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>Abstract will come here.</p>
+  <p>Abstract of Hogar Sí will come here.</p>
   </dd>
 </dl>
 
-https://sites.google.com/view/alexsandroscavgias/home
 
 
 <!---  Blank line  --->
@@ -105,10 +104,12 @@ https://sites.google.com/view/alexsandroscavgias/home
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
-  <dd class="indented"><p><i>with Pello Aspuru.</i></p></dd>
+  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Title with Alvaro</p></strong></dt>
   <dd class="indented"><p><i>with Álvaro Sánchez Leache.</i></p></dd>
 </dl>
+
+
 
 <!---  Blank line  --->
 <br/>
@@ -116,27 +117,27 @@ https://sites.google.com/view/alexsandroscavgias/home
 <h3 id="teaching">Teaching</h3>
 <br/>
 <dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Regulation and Competition Policy</p></strong></dt>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Uncertainty and Information (Microeconomics II)</p></strong></dt>
   <dd class="indented">
     CEMFI graduate course. <br>
-    Teaching assistant for Professor Gerard Llobet. Fall 2021, 2022. <br>
-    Find teaching evaluations <strong><a href="teaching/2020_21_RCP_TA_evaluation.pdf" target="_blank">here</a></strong> and
+    Teaching assistant for Professor Guillermo Caruana. Winter 2024, 2025. <br>
+    <!-- Find teaching evaluations <strong><a href="teaching/2020_21_RCP_TA_evaluation.pdf" target="_blank">here</a></strong> and
     <strong><a href="teaching/2021_22_RCP_TA_evaluation.pdf" target="_blank">here</a></strong>. <br>
-    <i>Best teaching assistant award, 2022.</i>
+    <i>Best teaching assistant award, 2022.</i> -->
   </dd>
 
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Uncertainty and Information</p></strong></dt>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Markets and Organizations</p></strong></dt>
   <dd class="indented">
     CEMFI graduate course. <br>
-    Teaching assistant for Professor Guillermo Caruana. Winter 2021. <br>
-    Find teaching evaluations <strong><a href="teaching/2020_21_UA_TA_evaluation.pdf" target="_blank">here</a></strong>.
+    Teaching assistant for Professor Guillermo Caruana and Wouter Vergote. Sprting 2023. <br>
+    <!-- Find teaching evaluations <strong><a href="teaching/2020_21_UA_TA_evaluation.pdf" target="_blank">here</a></strong>. -->
   </dd>
 </dl>
 
 <!---  Blank line  --->
 <br/>
 
-<h3 id="policy-work-and-others">Policy Work and Others</h3>
+<h3 id="policy-work-and-others">Pre-PhD Publications</h3>
 <br/>
 <dl>
   <dd class="indented">
