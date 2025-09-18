@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: green
 title: Home
 text-align: justify
 ---
