@@ -193,7 +193,7 @@ html {
 
 /* nudge upward */
 .sidebar-photo {
-  transform: translateY(-12px); /* tweak the value */
+  transform: translateY(-48px); /* tweak the value */
 }
 
 /*@media establishes the website behaviour for desktop browsers*/
