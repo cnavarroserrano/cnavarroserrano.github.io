@@ -129,7 +129,7 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Markets and Organizations</p></strong></dt>
   <dd class="indented">
     CEMFI graduate course. <br>
-    Teaching assistant for Professor Guillermo Caruana and Wouter Vergote. Sprting 2023. <br>
+    Teaching assistant for Professor Guillermo Caruana and Wouter Vergote. Spring 2023. <br>
     <!-- Find teaching evaluations <strong><a href="teaching/2020_21_UA_TA_evaluation.pdf" target="_blank">here</a></strong>. -->
   </dd>
 </dl>

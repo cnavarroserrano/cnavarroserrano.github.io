@@ -191,6 +191,11 @@ html {
   width:100%; height:auto; display:block;
 }
 
+/* nudge upward */
+.sidebar-photo {
+  transform: translateY(-12px); /* tweak the value */
+}
+
 /*@media establishes the website behaviour for desktop browsers*/
 @media (min-width: 65em) {
   .sidebar {
