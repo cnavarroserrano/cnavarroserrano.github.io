@@ -74,7 +74,7 @@ text-align: justify
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
-  <dd class="indented"><p><i>with Alexsandros Cavgias.</i></p>
+  <dd class="indented"><p><i>with <a href="https://github.com/poole/hyde" target="_blank">Alexsandros Cavgias</a>.</i></p>
   <a class="paper" href="{{ '/papers/WP_seedsofprejudice.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
   <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
@@ -93,6 +93,8 @@ text-align: justify
   <p>Abstract will come here.</p>
   </dd>
 </dl>
+
+https://sites.google.com/view/alexsandroscavgias/home
 
 
 <!---  Blank line  --->
