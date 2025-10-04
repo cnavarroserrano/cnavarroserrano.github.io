@@ -14,8 +14,8 @@
   .sidebar .sidebar-photo{
     display:block;
     width:100%;
-    /* height: min(55vh, 520px); */
-    height: clamp(360px, 48vh, 520px); /* NEW: shrinks earlier at mid zoom */
+    height: min(55vh, 520px);
+    max-height: calc(100vh - 280px);  /* ← add this */
     object-fit: cover;
     transform: translateY(0%);   /* positive = push image down */
   }
