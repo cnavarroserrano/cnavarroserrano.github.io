@@ -151,7 +151,6 @@ text-align: justify
 
 <h3 id="working-in-progress">Work in Progress</h3>
 <br/>
-
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
@@ -169,18 +168,17 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Uncertainty and Information (Microeconomics II)</p></strong></dt>
   <dd class="indented">
+    <p>
     CEMFI graduate course. <br>
     Teaching assistant for Professor Guillermo Caruana. Winter 2024, 2025. <br>
-    <!-- Find teaching evaluations <strong><a href="teaching/2020_21_RCP_TA_evaluation.pdf" target="_blank">here</a></strong> and
-    <strong><a href="teaching/2021_22_RCP_TA_evaluation.pdf" target="_blank">here</a></strong>. <br>
-    <i>Best teaching assistant award, 2022.</i> -->
+    </p>
   </dd>
-
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Markets and Organizations</p></strong></dt>
   <dd class="indented">
+    <p>
     CEMFI graduate course. <br>
     Teaching assistant for Professor Guillermo Caruana and Wouter Vergote. Spring 2023. <br>
-    <!-- Find teaching evaluations <strong><a href="teaching/2020_21_UA_TA_evaluation.pdf" target="_blank">here</a></strong>. -->
+    </p>
   </dd>
 </dl>
 
@@ -190,7 +188,7 @@ text-align: justify
 <h3 id="pre-phd-pubs">Pre-PhD Publications</h3>
 <br/>
 <dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</p></strong></dt>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;"><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://webgrec.ub.edu/webpages/000005/cas/mbadia.ub.edu.html" target="_blank">Marc Badia-Miró</a>, <a href="https://joseperescajias.com/" target="_blank">José Peres-Cajías</a> and <a href="https://webgrec.ub.edu/webpages/000005/cas/annacarrerasmarin.ub.edu.html" target="_blank">Anna Carreras Marin</a> .</i></p>
   </dd>
 </dl>
