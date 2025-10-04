@@ -11,13 +11,8 @@
   }
 
   /* Image: full bleed */
-  .sidebar .sidebar-photo{
-    display:block;
-    width:100%;
-    height: min(42vh, 420px);
-    object-fit: cover;
-    object-position: center 70% !important; /* move the visible window DOWN */
-  }
+  .sidebar .sidebar-photo{ filter: grayscale(100%) !important; }
+
   @media (max-width: 520px){
     .sidebar .sidebar-photo{
       height: 32vh;
