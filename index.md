@@ -13,10 +13,10 @@ text-align: justify
 
 <!---  Picture on the top of the website  --->
 <p align="center">
-   <!--- <img width="300" height=auto src="/photos/PELLO (88).jpg"> ---> <!---  horizontal pic  --->
-   <!--- <img width="400" height=auto src="/photos/PELLO (82).jpg"> ---> <!---  horizontal pic, close face  --->
-   <!--- <img width="300" height=auto src="/photos/PELLO (88) black_white.jpg"> ---> <!---  horizontal pic, black and white  ---> 
-   <!--- <img width="200" height=auto src="/photos/PELLO (53).jpg">  ---> <!---  vertical pic  --->
+   <!--- <img width="300" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic  --->
+   <!--- <img width="400" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic, close face  --->
+   <!--- <img width="300" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic, black and white  ---> 
+   <!--- <img width="200" height=auto src="/photos/picture.jpg">  ---> <!---  vertical pic  --->
 </p>
 
 <!---  Blank line  --->
@@ -33,20 +33,13 @@ text-align: justify
   </dd>
 </dl>
 
-<!-- Social buttons: twitter, github, linkedin... -->
-<!---  target="_blank": The links pop um in new tabs  --->
-<!---  style="float: left; margin-right: 30px;": Allows for space between icons  --->
-<!--- <a href="/documents/CV.pdf" target="_blank"><img src="/icons/file-solid.svg" style="display: inline-block; margin-right: 20px;" width="25" height="25" class="filter-gray-dark"></a><a href="mailto:pello.aspuru@cemfi.edu.es"><img src="/icons/envelope-solid.svg" style="display: inline-block; margin-right: 20px;" width="25" height="25" class="filter-gray-dark"></a><a href="https://github.com/pelloaspuru" target="_blank"><img src="/icons/github.svg" style= "display: inline-block; margin-right: 20px;" width="25" height="25" class="filter-gray-dark"></a><a href="https://github.com/pelloaspuru" target="_blank"><img src="/icons/google.svg" style= "display: inline-block; margin-right: 20px;" width="25" height="25" class="filter-gray-dark"></a><a href="https://twitter.com/pelloaspuru" target="_blank"><img src="/icons/twitter.svg" style="display: inline-block; margin-right: 20px;" width="25" height="25" class="filter-gray-dark"></a><a href="https://www.linkedin.com/in/pelloaspuru" target="_blank"><img src="/icons/linkedin.svg" style = "display: inline-block; margin-right: 0px;" width="25" height="25" class="filter-gray-dark"></a>
- --->
-<!-- Social buttons: twitter, github, linkedin... -->
-<!-- {% include social_links.html %} -->
 <!---
 <dd> <h4> References </h4>
     <ul>
-   <li> <strong><a href="https://gllobet.github.io" target="_blank">Gerard Llobet</a></strong> Associate professor with tenure, CEMFI. </li>
-   <li> <strong><a href="https://mreguant.github.io" target="_blank">Mar Reguant</a></strong> Professor, Northwestern University and BSE. </li>
-   <li> <strong><a href="https://sites.google.com/view/dmitry-arkhangelsky/home" target="_blank">Dmitry Arkhangelsky</a></strong> Associate professor, CEMFI. </li>
-   <li> <strong><a href="https://www.gautamgowrisankaran.com" target="_blank">Gautam Gowrisankaran</a></strong> Professor, Columbia University. </li>
+   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place. </li>
+   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place BSE. </li>
+   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, placeCEMFI. </li>
+   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place. </li>
     </ul>
 </dd>
 --->
