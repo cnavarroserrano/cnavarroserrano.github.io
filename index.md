@@ -113,25 +113,30 @@ text-align: justify
   
   <div style="height:22px;"></div>
 
-  <!-- Paper 2 -->
-  <dt class="indented">
-    <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
-  </dt>
-  <dd class="indented">
-    <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
-    <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-      <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
-      </a>
-      |
-      <details class="abs">
-        <summary><a><span>Abstract</span></a></summary>
-        <div>
-          <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
-        </div>
-      </details>
-    </p>
-  </dd>
+<!-- Paper 2 -->
+<dt class="indented">
+  <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
+</dt>
+<dd class="indented">
+  <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
+
+  <p class="paper-row"
+     style="margin:1px 0 0; color: var(--bs-link-color);
+            display:grid; grid-auto-flow:column; grid-auto-columns:max-content;
+            align-items:baseline; column-gap:.5ch;">
+    <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
+    </a>
+    <span>|</span>
+    <details class="abs" style="display:contents;">
+      <summary><a><span>Abstract</span></a></summary>
+      <div style="grid-column:1 / -1;">
+        <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+      </div>
+    </details>
+  </p>
+</dd>
+
 
 </dl>
 
