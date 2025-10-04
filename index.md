@@ -92,6 +92,10 @@ text-align: justify
     <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
     <!-- tighten space above buttons (adjust 4→6→8px if needed) -->
     <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+      <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
+      </a>
+      |
       <details class="abs">
         <summary><a>Abstract</a></summary>
         <div>
@@ -104,10 +108,6 @@ text-align: justify
           Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
         </div>
       </details>
-      |
-      <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
-      </a>
     </p>
   </dd>
   
@@ -120,16 +120,16 @@ text-align: justify
   <dd class="indented">
     <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
     <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+      <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
+      </a>
+      |
       <details class="abs">
         <summary><a>Abstract</a></summary>
         <div>
           <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
         </div>
       </details>
-      |
-      <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
-      </a>
     </p>
   </dd>
 
