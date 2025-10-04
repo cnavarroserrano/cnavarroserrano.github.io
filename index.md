@@ -57,11 +57,17 @@ text-align: justify
 <br/>
 
 <dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Title of the Job Market Paper</p></strong></dt>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Autocrats Remake the State: Evidence from Francoist Spain</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
   <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>Abstract of purge will come here.</p>
+  <p>After the Spanish Civil War (1936–1939), the Francoist regime launched a political purge of the teaching workforce to ensure ideological alignment.
+  In this paper, we construct a novel dataset by digitizing and combining purge and administrative records that trace teacher careers and municipal-level staffing before and after the purge, allowing us to examine not only the replacement dynamics but also the effects of the large-scale purge of frontline public workers on workforce competence and local service provision.
+  We document three main findings.
+  First, dismissals disproportionately targeted highly competent teachers, thereby reducing the overall quality of the workforce.
+  Second, the regime implemented a relocation system to mitigate teacher shortages in municipalities more severely affected by the purge. Yet coordination failures in this system led to unintended supply losses in municipalities that had not initially suffered dismissals.
+  Third, the replacement process had heterogeneous impacts on the composition and distribution of the teacher workforce across municipalities, with staffing frictions persisting years after the purge.
+  Taken together, our findings suggest that large-scale personnel reforms under autocratic rule can undermine state capacity and impair the delivery of essential public services.</p>
   </dd>
 </dl>
 
@@ -88,9 +94,9 @@ text-align: justify
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">HOGAR SÍ TITLE</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
-  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
+  <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>Abstract of Hogar Sí will come here.</p>
+  <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
   </dd>
 </dl>
 
@@ -105,7 +111,7 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Title with Alvaro</p></strong></dt>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">When should I expect the Spanish Inquisition? The Economics of denunciations</p></strong></dt>
   <dd class="indented"><p><i>with Álvaro Sánchez Leache.</i></p></dd>
 </dl>
 
@@ -137,21 +143,11 @@ text-align: justify
 <!---  Blank line  --->
 <br/>
 
-<h3 id="policy-work-and-others">Pre-PhD Publications</h3>
+<h3 id="pre-phd-pubs">Pre-PhD Publications</h3>
 <br/>
 <dl>
-  <dd class="indented">
-    <ul>
-      <li>
-        Book chapter <a href="https://www.funcas.es/articulos/contratacion-publica-en-espana-los-beneficios-y-los-costes-de-reducir-la-discrecionalidad-de-los-centros-de-contratacion/" target="_blank">
-        Contratación pública en Espańa. Los beneficios y los costes de reducir la discrecionalidad de los centros de contratación</a>. <br>
-        With Juan-José Ganuza and Gerard Llobet, <br>
-        in <i>Reformas para impulsar la competencia en España</i>, FUNCAS 2023.
-      </li>
-      <li>
-        Press articles <a href="https://www.enpresabidea.eus/autor/pello-aspuru-lopez-munain_19530_115.html" target="_blank">in Basque</a>.
-      </li>
-    </ul>
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</p></strong></dt>
+  <dd class="indented"><p><i>with <a href="https://webgrec.ub.edu/webpages/000005/cas/mbadia.ub.edu.html" target="_blank">Marc Badia-Miró</a>, <a href="https://joseperescajias.com/" target="_blank">José Peres-Cajías</a> and <a href="https://webgrec.ub.edu/webpages/000005/cas/annacarrerasmarin.ub.edu.html" target="_blank">Anna Carreras Marin</a> .</i></p>
   </dd>
 </dl>
 
