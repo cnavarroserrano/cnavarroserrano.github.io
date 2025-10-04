@@ -88,58 +88,57 @@ text-align: justify
   <dt class="indented">
     <strong>Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</strong>
   </dt>
+
   <dd class="indented">
     <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
-    <!-- tighten space above buttons (adjust 4→6→8px if needed) -->
-    <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-      <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
-      </a>
-      |
-      <details class="abs">
-        <summary><a><span>Abstract</span></a></summary>
-        <div>
-          <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
+
+  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
+    </a>
+    <span>|</span>
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_seedsofprejudice');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a>
+  </p>
+
+  <div id="abstract_seedsofprejudice" hidden>
+    <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
           We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
           Second, Geo-RDD estimates show that former British colonies have significantly greater sexual prejudice than former Portuguese colonies in Southern and Eastern Africa, where local norms did not systematically condemn same-sex relations.
           Third, Geo-RDD estimates indicate that former British and French colonies display similar levels of sexual prejudice in Western Africa, where a higher share of the population adheres to religious norms condemning same-sex acts.
           Fourth, additional evidence from areas in South America and Southeast Asia not characterized by homophobic social norms before colonization reinforces the external validity of our findings from Southeastern Africa.
           Finally, mechanisms analysis suggests that the persistence of sodomy laws fully accounts for the negative association between British colonial origin and contemporary sexual prejudice across countries.
           Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
-        </div>
-      </details>
-    </p>
+  </div>
   </dd>
   
-  <div style="height:22px;"></div>
+<div style="height:22px;"></div>
 
 <!-- Paper 2 -->
-<dt class="indented">
-  <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
-</dt>
-<dd class="indented">
-  <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
+  <dt class="indented">
+    <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
+  </dt>
 
-<p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-  <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
-    <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
-  </a>
-  <span>|</span>
-  <a href="#" class="abs-toggle"
-     onclick="const el=document.getElementById('abstract_homelessness');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
-    <span class="sign">+</span> Abstract
-  </a>
-</p>
+  <dd class="indented">
+    <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
 
-<div id="abstract_homelessness" hidden>
-  <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
-</div>
+  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
+    </a>
+    <span>|</span>
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_homelessness');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a>
+  </p>
 
-
-
-
-</dd>
-
+  <div id="abstract_homelessness" hidden>
+    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+  </div>
+  </dd>
 
 </dl>
 
