@@ -61,7 +61,7 @@ text-align: justify
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
   <!-- <a class="paper" href="papers/XXX.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> -->
-  Draft coming soon!
+  <span style="color: var(--bs-link-color);">Draft coming soon!</span>
   <br/>
   <p>After the Spanish Civil War (1936–1939), the Francoist regime launched a political purge of the teaching workforce to ensure ideological alignment.
   In this paper, we construct a novel dataset by digitizing and combining purge and administrative records that trace teacher careers and municipal-level staffing before and after the purge, allowing us to examine not only the replacement dynamics but also the effects of the large-scale purge of frontline public workers on workforce competence and local service provision.
