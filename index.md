@@ -93,7 +93,7 @@ text-align: justify
     <!-- tighten space above buttons (adjust 4→6→8px if needed) -->
     <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
       <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span>
+        <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
       </a>
       |
       <details class="abs">
