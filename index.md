@@ -22,8 +22,8 @@ text-align: justify
 <!---  Blank line  --->
 <!--- <br/> --->
 
-<!--- <h3 id="welcome">Ongi Etorri!</h3> --->
-<!--- <br/> --->
+<h3 id="welcome">Welcome!</h3>
+<br/>
 <dl>
   <dd class="indented">
     I am a PhD candidate at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
@@ -53,7 +53,7 @@ text-align: justify
 
 <!---  Blank line  --->
 <br/>
-<h3>Job Market Paper</h3>
+<h3 id="jmp">Job Market Paper</h3>
 <br/>
 
 <dl>
