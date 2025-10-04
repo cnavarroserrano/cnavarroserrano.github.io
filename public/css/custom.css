@@ -41,3 +41,17 @@ a.paper{
 
 /* spacing below when open (separates papers slightly) */
 .abs > div{ margin: 10px 0 18px; }            /* tweak numbers to taste */
+
+/* keep Abstract + Draft on ONE line */
+.abs{ display: inline-block; vertical-align: baseline; }
+
+/* remove default extra space on summary */
+.abs summary{ margin: 0; }
+
+/* make "Abstract" look like a normal link */
+.abs summary a{
+  color: inherit;                 /* use your site’s link color via parent */
+  text-decoration: underline;
+  pointer-events: none;           /* so clicking anywhere on summary still toggles */
+}
+.abs summary a:hover{ text-decoration: none; }

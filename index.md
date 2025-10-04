@@ -80,6 +80,8 @@ text-align: justify
 <h3 id="working-papers">Working Papers</h3>
 <br/>
 
+
+
 <dl>
 
   <!-- Paper 1 -->
@@ -88,9 +90,10 @@ text-align: justify
   </dt>
   <dd class="indented">
     <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
-    <p style="margin:6px 0 0">
-      <details class="abs" style="display:inline;">
-        <summary>Abstract</summary>
+    <!-- tighten space above buttons (adjust 4→6→8px if needed) -->
+    <p style="margin:4px 0 0">
+      <details class="abs">
+        <summary><a>Abstract</a></summary>
         <div>
           <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
           We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
@@ -114,9 +117,9 @@ text-align: justify
   </dt>
   <dd class="indented">
     <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
-    <p style="margin:6px 0 0">
-      <details class="abs" style="display:inline;">
-        <summary>Abstract</summary>
+    <p style="margin:4px 0 0">
+      <details class="abs">
+        <summary><a>Abstract</a></summary>
         <div>
           <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
         </div>
@@ -129,6 +132,7 @@ text-align: justify
   </dd>
 
 </dl>
+
 
 
 
