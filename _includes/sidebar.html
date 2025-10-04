@@ -26,8 +26,9 @@
   }
   /* create a guaranteed gap below the image on desktop */
   .sidebar-about{
-    padding-top: 14px !important;
-    border-top: 1px solid transparent;  /* NEW: prevents the h1 from “jumping” up at 110–125% */
+    display: flow-root;            /* NEW: prevents the h1 margin from collapsing over the image */
+    padding: 14px 20px 0 !important;  /* keep whatever you already set */
+    border-top: 1px solid transparent; /* ok to keep; harmless */
   }
 
   /* optional but helpful: prevent the heading from pulling upward */
@@ -108,13 +109,13 @@
       <!-- {% include social_links.html %} -->
       
       <!-- Index -->
-    <!-- <br>
+    <br>
     <a href="#welcome">About</a>
     <br>
     <a href="#jmp">Research</a>
     <br>
     <a href="#teaching">Teaching</a>
-    <br> -->
+    <br>
 
      </body>
       
