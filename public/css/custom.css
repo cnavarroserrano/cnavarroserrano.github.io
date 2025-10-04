@@ -4,74 +4,38 @@
 .fa-regular{ font-weight:400 !important; }
 .fa-brands{ font-family:"Font Awesome 6 Brands" !important; font-weight:400 !important; }
 
-/* Enlace con icono y texto alineados */
+/* Draft link: icon + text inline */
 a.paper{
-  display: inline-flex;      /* was flex (block) */
-  align-items: center;
-  gap: .5ch;
-  line-height: 1;
-  white-space: nowrap;
-  margin: 0;      /* space before the | / Abstract */
+  display:inline-flex; align-items:center; gap:.5ch; line-height:1; margin:0;
 }
 
-/* remove default triangle and style the toggle */
-.abs summary{
-  list-style: none;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: .4ch;
-  margin: 6px 0 0;          /* tighten space above; tweak as needed */
-}
-.abs summary::-webkit-details-marker{ display:none; }
-
-/* plus/minus box */
-.abs summary::before{
-  content: "+";
-  display: inline-grid;
-  place-items: center;
-  width: 1em;
-  height: 1em;
-  border: 1px solid currentColor;
-  border-radius: .2em;
-  line-height: 1;
-  font-weight: 600;
-}
-.abs[open] summary::before{ content: "–"; }   /* en dash looks like a minus */
-
-/* spacing below when open (separates papers slightly) */
-.abs > div{ margin: 10px 0 18px; }            /* tweak numbers to taste */
-
-/* keep Abstract + Draft on ONE line */
-.abs{ display: inline-block; vertical-align: baseline; }
-
-/* remove default extra space on summary */
-.abs summary{ margin: 0; }
-
-/* make "Abstract" look like a normal link */
-.abs summary a{
-  color: inherit;                 /* use your site’s link color via parent */
-  text-decoration: underline;
-  pointer-events: none;           /* so clicking anywhere on summary still toggles */
-}
-.abs summary a:hover{ text-decoration: none; }
-
-/* make the plus + "Abstract" use the link color */
-.abs{
-  color: var(--bs-link-color, #b2433f); /* fallback hex if the var doesn't exist */
-}
-
-/* row that holds Abstract | Draft */
+/* Row: keep Draft | Abstract on one line; content goes below */
 .paper-row{
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: max-content;
-  align-items: baseline;
-  column-gap: .5ch;            /* space between items */
+  color: var(--bs-link-color, #b2433f);
+  display:grid;
+  grid-auto-flow:column;
+  grid-auto-columns:max-content;
+  align-items:baseline;
+  column-gap:.5ch;
+}
+.paper-row .abs{ display:contents; }                 /* flatten details */
+.paper-row .abs .abs-body{
+  grid-column:1 / -1;                                /* next row, full width */
+  margin:10px 0 18px;                                /* spacing when open */
+  color: inherit;
 }
 
-/* flatten <details> so its children (summary + content) become grid items */
-.paper-row .abs{ display: contents; }
-
-/* when open, the abstract content drops to next row and spans full width */
-.paper-row .abs > div{ grid-column: 1 / -1; }
+/* Abstract toggle styling (+ / –) */
+.abs summary{
+  list-style:none; cursor:pointer;
+  display:inline-flex; align-items:center; gap:.4ch;
+  color: inherit; text-decoration: underline;
+}
+.abs summary:hover{ text-decoration:none; }
+.abs summary::-webkit-details-marker{ display:none; }
+.abs summary::before{
+  content:"+"; display:inline-grid; place-items:center;
+  width:1em; height:1em; border:1px solid currentColor; border-radius:.2em;
+  line-height:1; font-weight:600;
+}
+.abs[open] summary::before{ content:"–"; }
