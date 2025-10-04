@@ -91,7 +91,7 @@ text-align: justify
   <dd class="indented">
     <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
     <!-- tighten space above buttons (adjust 4→6→8px if needed) -->
-    <p style="margin:4px 0 0">
+    <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
       <details class="abs">
         <summary><a>Abstract</a></summary>
         <div>
@@ -110,6 +110,8 @@ text-align: justify
       </a>
     </p>
   </dd>
+  
+  <div style="height:22px;"></div>
 
   <!-- Paper 2 -->
   <dt class="indented">
@@ -117,7 +119,7 @@ text-align: justify
   </dt>
   <dd class="indented">
     <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
-    <p style="margin:4px 0 0">
+    <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
       <details class="abs">
         <summary><a>Abstract</a></summary>
         <div>

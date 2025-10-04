@@ -55,3 +55,23 @@ a.paper{
   pointer-events: none;           /* so clicking anywhere on summary still toggles */
 }
 .abs summary a:hover{ text-decoration: none; }
+
+/* make the plus + "Abstract" use the link color */
+.abs{
+  color: var(--bs-link-color, #b2433f); /* fallback hex if the var doesn't exist */
+}
+
+/* row that holds Abstract | Draft */
+.paper-row{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  align-items: baseline;
+  column-gap: .5ch;            /* space between items */
+}
+
+/* flatten <details> so its children (summary + content) become grid items */
+.paper-row .abs{ display: contents; }
+
+/* when open, the abstract content drops to next row and spans full width */
+.paper-row .abs > div{ grid-column: 1 / -1; }
