@@ -17,7 +17,6 @@
     height: min(55vh, 520px);
     object-fit: cover;
     transform: translateY(0%);   /* positive = push image down */
-    margin-bottom: 12px;
   }
   @media (max-width: 520px){
     .sidebar .sidebar-photo{
@@ -25,10 +24,14 @@
       object-position: center 65% !important;
     }
   }
+  /* create a guaranteed gap below the image on desktop */
+  .sidebar-about{
+    padding-top: 14px !important;  /* NEW: stops margin-collapsing with the image */
+  }
 
-  /* Add padding only to the content below the image */
-  .sidebar-body{
-    padding: 16px 20px;          /* adjust to taste */
+  /* optional but helpful: prevent the heading from pulling upward */
+  .sidebar-about h1{
+    margin-top: 0 !important;
   }
 </style>
 
