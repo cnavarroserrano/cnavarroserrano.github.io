@@ -11,7 +11,7 @@ a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; margi
 .paper-row{ display:flex; align-items:baseline; gap:.5ch; color:var(--bs-link-color,#b2433f); }
 
 /* Abstract toggle (+ / –) */
-.abs-toggle{ display:inline-flex; align-items:center; gap:.4ch; text-decoration:underline; }
+.abs-toggle{ display:inline-flex; align-items:center; gap:.4ch; text-decoration:none; }
 .abs-toggle:hover{ text-decoration:none; }
 .abs-toggle .sign{
   display:inline-grid; place-items:center; width:1em; height:1em;
