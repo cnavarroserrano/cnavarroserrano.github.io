@@ -13,3 +13,31 @@ a.paper{
   white-space: nowrap;
   margin: 0;      /* space before the | / Abstract */
 }
+
+/* remove default triangle and style the toggle */
+.abs summary{
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: .4ch;
+  margin: 6px 0 0;          /* tighten space above; tweak as needed */
+}
+.abs summary::-webkit-details-marker{ display:none; }
+
+/* plus/minus box */
+.abs summary::before{
+  content: "+";
+  display: inline-grid;
+  place-items: center;
+  width: 1em;
+  height: 1em;
+  border: 1px solid currentColor;
+  border-radius: .2em;
+  line-height: 1;
+  font-weight: 600;
+}
+.abs[open] summary::before{ content: "–"; }   /* en dash looks like a minus */
+
+/* spacing below when open (separates papers slightly) */
+.abs > div{ margin: 10px 0 18px; }            /* tweak numbers to taste */
