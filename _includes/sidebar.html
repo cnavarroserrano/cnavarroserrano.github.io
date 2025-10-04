@@ -16,9 +16,12 @@
     width:100%;
     height: min(42vh, 420px);  /* tall on desktop, capped */
     object-fit: cover;
+    object-position: center 20%;   /* 0% = top, 50% = middle, 100% = bottom */
   }
   @media (max-width: 520px){
-    .sidebar-photo{ height: 32vh; }  /* a bit shorter on small phones */
+    .sidebar-photo{ height: 32vh; 
+    object-position: center 15%; /* a bit higher on phones */
+    }  /* a bit shorter on small phones */
   }
 
   /* Add padding only to the content below the image */
