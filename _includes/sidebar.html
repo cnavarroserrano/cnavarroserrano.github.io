@@ -10,15 +10,20 @@
     padding: 0 !important;
   }
 
-  /* Image: full bleed */
-  .sidebar .sidebar-photo{ filter: grayscale(100%) !important; }
-
+ /* ensure the rule wins */
+  .sidebar .sidebar-photo{
+    display:block;
+    width:100%;
+    height: min(42vh, 420px);
+    object-fit: cover;
+    transform: translateY(10%);   /* positive = push image down */
+  }
   @media (max-width: 520px){
     .sidebar .sidebar-photo{
       height: 32vh;
       object-position: center 65% !important;
+    }
   }
-}
 
   /* Add padding only to the content below the image */
   .sidebar-body{
