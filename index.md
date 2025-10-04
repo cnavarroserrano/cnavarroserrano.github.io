@@ -83,7 +83,7 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
-  <p>
+  <p style="margin:6px 0 0">
     <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> |
     <a href="javascript:void(0);" onclick="toggle('abstract_seedsofprejudice')">Abstract</a> 
@@ -98,6 +98,8 @@ text-align: justify
     Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
     </div>
   </dd>
+
+  <div style="height:16px;"></div>   <!-- Just adds some space -->
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
