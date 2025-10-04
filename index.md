@@ -26,7 +26,7 @@ text-align: justify
 <br/>
 <dl>
   <dd class="indented">
-    I am a PhD candidate at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
+    I am a PhD candidate in Economics at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history and development economics. 
     <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
     You can find my <strong><a href="resume/cv_cnavarro_251004.pdf" target="_blank">CV here</a></strong>.
