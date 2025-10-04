@@ -11,18 +11,19 @@
   }
 
   /* Image: full bleed */
-  .sidebar-photo{
+  .sidebar .sidebar-photo{
     display:block;
     width:100%;
-    height: min(42vh, 420px);  /* tall on desktop, capped */
+    height: min(42vh, 420px);
     object-fit: cover;
-    object-position: center 50%;   /* 0% = top, 50% = middle, 100% = bottom */
+    object-position: center 70% !important; /* move the visible window DOWN */
   }
   @media (max-width: 520px){
-    .sidebar-photo{ height: 32vh; 
-    object-position: center 15%; /* a bit higher on phones */
-    }  /* a bit shorter on small phones */
+    .sidebar .sidebar-photo{
+      height: 32vh;
+      object-position: center 65% !important;
   }
+}
 
   /* Add padding only to the content below the image */
   .sidebar-body{
