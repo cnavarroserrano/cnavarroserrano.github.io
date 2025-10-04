@@ -5,37 +5,16 @@
 .fa-brands{ font-family:"Font Awesome 6 Brands" !important; font-weight:400 !important; }
 
 /* Draft link: icon + text inline */
-a.paper{
-  display:inline-flex; align-items:center; gap:.5ch; line-height:1; margin:0;
+a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; margin:0; }
+
+/* One-row container for Draft | Abstract */
+.paper-row{ display:flex; align-items:baseline; gap:.5ch; color:var(--bs-link-color,#b2433f); }
+
+/* Abstract toggle (+ / –) */
+.abs-toggle{ display:inline-flex; align-items:center; gap:.4ch; text-decoration:underline; }
+.abs-toggle:hover{ text-decoration:none; }
+.abs-toggle .sign{
+  display:inline-grid; place-items:center; width:1em; height:1em;
+  border:1px solid currentColor; border-radius:.2em; line-height:1; font-weight:600;
 }
 
-/* Row: keep Draft | Abstract on one line; content goes below */
-.paper-row{
-  color: var(--bs-link-color, #b2433f);
-  display:grid;
-  grid-auto-flow:column;
-  grid-auto-columns:max-content;
-  align-items:baseline;
-  column-gap:.5ch;
-}
-.paper-row .abs{ display:contents; }                 /* flatten details */
-.paper-row .abs .abs-body{
-  grid-column:1 / -1;                                /* next row, full width */
-  margin:10px 0 18px;                                /* spacing when open */
-  color: inherit;
-}
-
-/* Abstract toggle styling (+ / –) */
-.abs summary{
-  list-style:none; cursor:pointer;
-  display:inline-flex; align-items:center; gap:.4ch;
-  color: inherit; text-decoration: underline;
-}
-.abs summary:hover{ text-decoration:none; }
-.abs summary::-webkit-details-marker{ display:none; }
-.abs summary::before{
-  content:"+"; display:inline-grid; place-items:center;
-  width:1em; height:1em; border:1px solid currentColor; border-radius:.2em;
-  line-height:1; font-weight:600;
-}
-.abs[open] summary::before{ content:"–"; }
