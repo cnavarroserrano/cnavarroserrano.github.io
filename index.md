@@ -83,15 +83,20 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
-  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
-  We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
-  Second, Geo-RDD estimates show that former British colonies have significantly greater sexual prejudice than former Portuguese colonies in Southern and Eastern Africa, where local norms did not systematically condemn same-sex relations.
-  Third, Geo-RDD estimates indicate that former British and French colonies display similar levels of sexual prejudice in Western Africa, where a higher share of the population adheres to religious norms condemning same-sex acts.
-  Fourth, additional evidence from areas in South America and Southeast Asia not characterized by homophobic social norms before colonization reinforces the external validity of our findings from Southeastern Africa.
-  Finally, mechanisms analysis suggests that the persistence of sodomy laws fully accounts for the negative association between British colonial origin and contemporary sexual prejudice across countries.
-  Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
+  <p>
+    <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
+    <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> |
+    <a href="javascript:void(0);" onclick="toggle('abstract_seedsofprejudice')">Abstract</a> 
+  <p>
+  <div id="abstract_seedsofprejudice" style="display:none;">
+    <p>This paper provides the first causal test of the widely debated hypothesis that British colonial institutions promoted sexual prejudice—defined as negative attitudes toward sexual minorities—in postcolonial societies.
+    We document five main findings. First, after accounting for differences in contemporary economic development, OLS estimates from a cross-country sample of former European colonies reveal that former British colonies exhibit higher sexual prejudice than those of other European powers.
+    Second, Geo-RDD estimates show that former British colonies have significantly greater sexual prejudice than former Portuguese colonies in Southern and Eastern Africa, where local norms did not systematically condemn same-sex relations.
+    Third, Geo-RDD estimates indicate that former British and French colonies display similar levels of sexual prejudice in Western Africa, where a higher share of the population adheres to religious norms condemning same-sex acts.
+    Fourth, additional evidence from areas in South America and Southeast Asia not characterized by homophobic social norms before colonization reinforces the external validity of our findings from Southeastern Africa.
+    Finally, mechanisms analysis suggests that the persistence of sodomy laws fully accounts for the negative association between British colonial origin and contemporary sexual prejudice across countries.
+    Overall, our results indicate that British colonial origin notably increased sexual prejudice in societies with social norms different from the penal codes imposed by colonizers.</p>
+    </div>
   </dd>
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</p></strong></dt>
