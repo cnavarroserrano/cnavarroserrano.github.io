@@ -21,8 +21,12 @@
   }
   @media (max-width: 520px){
     .sidebar .sidebar-photo{
-      height: 32vh;
-      object-position: center 65% !important;
+      width: 100%;
+      height: auto;          /* show full image height */
+      max-height: none;      /* cancel the desktop cap */
+      object-fit: contain;   /* no cropping */
+      object-position: center top; /* harmless here; keeps head visible */
+      display: block;
     }
   }
   /* create a guaranteed gap below the image on desktop */
