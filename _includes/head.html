@@ -11,15 +11,14 @@
   {% include collecttags.html %}
   {% endif %}
 
-  <title>
-    {% if page.url == "/" %}
-      {{ site.title }}{% if site.tagline %} | {{ site.tagline }}{% endif %}
-    {% elsif page.title %}
-      {{ page.title }} | {{ site.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
+<title>
+  {% assign tl = site.tagline | to_s | strip %}
+  {% if page.url == "/" %}
+    {{ site.title }}{% if tl != "" %} | {{ tl }}{% endif %}
+  {% else %}
+    {{ page.title | default: site.title }}
+  {% endif %}
+</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/poole.css">
@@ -50,5 +49,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       crossorigin="anonymous" referrerpolicy="no-referrer">
 
+  <!-- seo -->
+  {% seo %}
 
 </head>

@@ -16,7 +16,7 @@ highlighter:      rouge
 # Setup
 title:            "Cristian Navarro - CEMFI"
 tagline:          ''
-description:      'PhD Candidate'
+description:      'PhD Candidate in Economics at CEMFI, Madrid'
 url:              https://cristian-navarro.com
 baseurl:          ''
 
@@ -39,6 +39,8 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-commonmark-ghpages
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 disqus:
   shortname: cnavarroserrano
