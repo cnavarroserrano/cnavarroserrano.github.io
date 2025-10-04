@@ -5,4 +5,11 @@
 .fa-brands{ font-family:"Font Awesome 6 Brands" !important; font-weight:400 !important; }
 
 /* Enlace con icono y texto alineados */
-a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; white-space:nowrap; margin-bottom: 10px;}
+a.paper{
+  display: flex;           /* was inline-flex */
+  align-items: center;
+  gap: .5ch;
+  line-height: 1;
+  white-space: nowrap;
+  margin: 0 0 10px;        /* bottom gap works reliably */
+}
