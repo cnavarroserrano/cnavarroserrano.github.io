@@ -1,13 +1,27 @@
 <style>
-  .sidebar-inner{
-    width: 100%;
-    padding: 0;          /* no gutter so the image can go edge-to-edge */
+  /* Make the sidebar edge-to-edge and clip to rounded corners (if any) */
+  .sidebar{
+    padding: 0 !important;       /* theme likely adds padding */
+    overflow: hidden;            /* so the image fills + respects border-radius */
   }
+
+  /* Keep the inner wrapper clean */
+  .sidebar-inner{
+    padding: 0 !important;
+  }
+
+  /* Image: full bleed */
   .sidebar-photo{
+    display: block;              /* removes inline gap */
     width: 100%;
     height: 400px;
     object-fit: cover;
-    display: block;
+    margin: 0;                   /* be explicit */
+  }
+
+  /* Add padding only to the content below the image */
+  .sidebar-body{
+    padding: 16px 20px;          /* adjust to taste */
   }
 </style>
 
