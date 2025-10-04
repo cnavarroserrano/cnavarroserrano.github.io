@@ -120,18 +120,31 @@ text-align: justify
 <dd class="indented">
   <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
 
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+<p class="paper-row"
+   style="margin:1px 0 0; color: var(--bs-link-color);
+          display:flex; align-items:baseline; gap:.5ch; flex-wrap:wrap;">
   <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
   </a>
-  |
-  <details class="abs" style="display:inline;">
-    <summary><a><span>Abstract</span></a></summary>
-    <div>
-      <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+  <span>|</span>
+
+  <!-- Summary stays in the first row; content drops to the next row -->
+  <details class="abs" style="display:contents;">
+    <summary><a>Abstract</a></summary>
+    <div style="flex-basis:100%; margin-top:10px;">
+      <p>
+        We evaluate the impact of a randomized intervention designed to promote labor market integration among people
+        experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment
+        program, featuring intensive caseworker support and financial assistance, or to the traditional employment
+        model. Short-term results show substantial gains for the treatment group in housing stability, employment,
+        income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes
+        of those in the traditional model improved. The findings highlight both the potential of personalized approaches
+        to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.
+      </p>
     </div>
   </details>
 </p>
+
 
 </dd>
 
