@@ -59,8 +59,9 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Autocrats Remake the State: Evidence from Francoist Spain</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
-  <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
+  <!-- <a class="paper" href="papers/XXX.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> -->
+  Draft coming soon!
   <p>After the Spanish Civil War (1936–1939), the Francoist regime launched a political purge of the teaching workforce to ensure ideological alignment.
   In this paper, we construct a novel dataset by digitizing and combining purge and administrative records that trace teacher careers and municipal-level staffing before and after the purge, allowing us to examine not only the replacement dynamics but also the effects of the large-scale purge of frontline public workers on workforce competence and local service provision.
   We document three main findings.
@@ -112,7 +113,7 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">When should I expect the Spanish Inquisition? The Economics of denunciations</p></strong></dt>
-  <dd class="indented"><p><i>with Álvaro Sánchez Leache.</i></p></dd>
+  <dd class="indented"><p><i>with <a href="https://www.cemfi.es/people/faculty/profile_phd.asp?u=sanchez" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
 </dl>
 
 
