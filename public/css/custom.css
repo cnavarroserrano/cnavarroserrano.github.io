@@ -11,5 +11,5 @@ a.paper{
   gap: .5ch;
   line-height: 1;
   white-space: nowrap;
-  margin: 0 .75rem 0 0;      /* space before the | / Abstract */
+  margin: 0;      /* space before the | / Abstract */
 }
