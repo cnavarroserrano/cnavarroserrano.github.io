@@ -83,7 +83,7 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
-  </p>
+  <p>
     <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> |
     <a href="javascript:void(0);" onclick="toggle('abstract_seedsofprejudice')">Abstract</a> 
@@ -101,9 +101,14 @@ text-align: justify
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
-  <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+  <p>
+    <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
+    <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> |
+    <a href="javascript:void(0);" onclick="toggle('abstract_homelessness')">Abstract</a> 
+  </p>
+  <div id="abstract_homelessness" style="display:none;">
+    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+    </div>
   </dd>
 </dl>
 
