@@ -12,11 +12,13 @@
 
   /* Image: full bleed */
   .sidebar-photo{
-    display: block;              /* removes inline gap */
-    width: 100%;
-    height: 400px;
+    display:block;
+    width:100%;
+    height: min(42vh, 420px);  /* tall on desktop, capped */
     object-fit: cover;
-    margin: 0;                   /* be explicit */
+  }
+  @media (max-width: 520px){
+    .sidebar-photo{ height: 32vh; }  /* a bit shorter on small phones */
   }
 
   /* Add padding only to the content below the image */
