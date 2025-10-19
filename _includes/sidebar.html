@@ -1,4 +1,11 @@
 <style>
+
+  :root{ --sidebar-w: 288px; }            /* elige 256/280/288/300 según tu layout */
+  @media (min-width: 521px){
+    .sidebar{ width: var(--sidebar-w); flex: 0 0 var(--sidebar-w); }
+    .sidebar .sidebar-photo{ width: var(--sidebar-w); }  /* evita % en desktop */
+  }
+
   /* Make the sidebar edge-to-edge and clip to rounded corners (if any) */
   .sidebar{
     padding: 0 !important;       /* theme likely adds padding */
@@ -17,7 +24,8 @@
     height: min(55vh, 520px);
     max-height: calc(100vh - 280px);  /* ← add this */
     object-fit: cover;
-    transform: translateY(0%);   /* positive = push image down */
+    transform: none;
+    image-rendering: auto;
   }
   @media (max-width: 520px){
     .sidebar .sidebar-photo{
