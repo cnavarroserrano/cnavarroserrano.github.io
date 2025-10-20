@@ -419,6 +419,16 @@ a.sidebar-nav-item:active {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+
+/* Red */
+.theme-base-mygreen .sidebar {
+  background-color: #4A5D4E;
+}
+.theme-base-mygreen .content a,
+.theme-base-mygreen .related-posts li a:hover {
+  color: #4A5D4E;
+}
+
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
