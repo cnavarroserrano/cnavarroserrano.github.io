@@ -55,7 +55,7 @@ text-align: justify
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
   <!-- <a class="paper" href="papers/XXX.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> -->
-  <span style="color: var(--bs-link-color, #b2433f);">Draft coming soon!</span>
+  <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
   <br/>
   <p>
   After the Spanish Civil War (1936–1939), the Francoist regime launched a political purge of the teaching workforce to ensure ideological conformity.
