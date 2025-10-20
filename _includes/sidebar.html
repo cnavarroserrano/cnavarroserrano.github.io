@@ -39,21 +39,6 @@
   /* optional but helpful: prevent the heading from pulling upward */
   .sidebar-about h1{
     margin-top: 0 !important;
-
-    /* Desktop: fixed sidebar width */
-  @media (min-width: 992px){
-  .sidebar{
-    width: 320px;          /* pick your number */
-    min-width: 320px;
-    max-width: 320px;
-    flex: 0 0 320px;       /* if parent is flex, this locks it */
-  }
-
-  /* If your layout isn't flex/grid and content sits to the right,
-     this nudges the main column over. If you already use a grid, delete this line. */
-  .sidebar + *{ margin-left: 320px; }
-  }
-
   }
 </style>
 
