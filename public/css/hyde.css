@@ -281,7 +281,7 @@ a:focus {
 /* Applies to text and icon hyperlinks*/
 a:hover,
 a:focus {
-  filter: brightness(2.0);
+  filter: brightness(1.2);
   /*color: gray; */
   /*text-decoration: none;*/
   /* text-decoration-color: gray; */
