@@ -51,14 +51,13 @@
     object-position: center top;
     display: block;
   }
-  /* Mid-height desktops (your “125%” zone): make photo a bit shorter + crop more bottom */
-  @media (min-width: 521px) and (min-height: 650px) and (max-height: 780px){
-    .sidebar .sidebar-photo{
-      height: min(50vh, 480px);       /* was 55vh/520px – shave a little */
-      max-height: calc(100vh - 320px);/* reserve a bit more space for text */
-      object-position: center 20% !important; /* bias crop toward bottom → shows more head */
-    }
+  @media (min-width: 521px){
+  html{ font-size: 110%; }   /* gentle ~10% bump */
   }
+  @media (min-width: 992px){
+    .sidebar{ width: 340px; min-width: 340px; }
+  }
+
 }
 
 </style>
