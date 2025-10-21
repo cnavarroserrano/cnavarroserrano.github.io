@@ -40,6 +40,19 @@
   .sidebar-about h1{
     margin-top: 0 !important;
   }
+
+  /* Also treat SHORT viewports like mobile to avoid head crop when zoomed */
+  @media (max-height: 700px){
+  .sidebar .sidebar-photo{
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    object-position: center top;
+    display: block;
+  }
+}
+
 </style>
 
 
