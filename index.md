@@ -58,13 +58,15 @@ text-align: justify
   <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
   <br/>
   <p>
-  After the Spanish Civil War (1936–1939), the Francoist regime launched a political purge of the teaching workforce to ensure ideological conformity.
-  In this paper, we construct a novel dataset by digitizing and linking purge and administrative records that track teacher careers and municipal-level staffing before and after the purge. Using these data, we study how the large-scale purge of public service workers affected workforce composition and local service provision.
+  After the Spanish Civil War (1936–1939), the Francoist regime carried out a political purge of the teaching workforce to enforce ideological conformity within the education system.
+  In this paper, we examine its consequences for the primary education system by constructing a novel dataset that digitizes and links purge and administrative records to track teacher careers and municipal-level staffing before and after the purge.
+  Using these data, we study how the large-scale purge and subsequent reorganization of the primary teaching workforce affected workforce composition and local service provision.
   We document three main findings.
-  First, the dismissals disproportionately targeted highly competent teachers, reducing the overall quality of the teaching force.
-  Second, the purge lowered average teacher experience by about 4.3 years.
-  Third, although the regime sought to mitigate local teacher shortages through new hires and reallocations, coordination frictions in this process led to unintended shortages even in municipalities unaffected by the purge.
-  Taken together, these results show that large-scale personnel reforms under autocratic rule can erode state capacity and weaken the delivery of essential public services.</p>
+  First, the dismissals disproportionately targeted highly competent teachers, lowering the overall quality of the teaching force.
+  Second, the purge reduced average teacher experience by about 2.5 years.
+  Third, although the regime sought to address local teacher shortages through geographic reallocations, coordination frictions in this process produced unintended shortages even in municipalities unaffected by the purge.
+  Overall, these results show that large-scale personnel reforms under autocratic rule can erode state capacity and weaken the provision of essential public services.
+  </p>
   </dd>
 </dl>
 
