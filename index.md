@@ -60,12 +60,12 @@ text-align: justify
   <p>
   After the Spanish Civil War (1936–1939), the Francoist regime carried out a political purge of the teaching workforce to enforce ideological conformity within the education system.
   In this paper, we examine its consequences for the primary education system by constructing a novel dataset that digitizes and links purge and administrative records to track teacher careers and municipal-level staffing before and after the purge.
-  Using these data, we study how the large-scale purge and subsequent reorganization of the primary teaching workforce affected workforce composition and local service provision.
+  Using these data, we study how the large-scale purge and subsequent reorganization of the primary teaching workforce affected workforce composition and the local provision of education.
   We document three main findings.
-  First, the dismissals disproportionately targeted highly competent teachers, lowering the overall quality of the teaching force.
+  First, more competent teachers were dismissed at higher rates, lowering the overall quality of the teaching force.
   Second, the purge reduced average teacher experience by about 2.5 years.
-  Third, although the regime sought to address local teacher shortages through geographic reallocations, coordination frictions in this process produced unintended shortages even in municipalities unaffected by the purge.
-  Overall, these results show that large-scale personnel reforms under autocratic rule can erode state capacity and weaken the provision of essential public services.
+  Third, although the regime sought to address local teacher shortages through geographic reallocations, coordination frictions in this process produced unintended staffing gaps--even in municipalities unaffected by the purge.
+  Overall, these results show that large-scale personnel reforms under autocratic rule can erode the quality of frontline workforces and undermine the state's capacity to deliver essential public services.
   </p>
   </dd>
 </dl>
