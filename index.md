@@ -34,16 +34,16 @@ text-align: justify
   </dd>
 </dl>
 
-<!---
+-
 <dd> <h4> References </h4>
     <ul>
-   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place. </li>
-   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place BSE. </li>
-   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, placeCEMFI. </li>
-   <li> <strong><a href="website" target="_blank">Name</a></strong> Position, place. </li>
+   <li> <strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist , Bank of Spain. </li>
+   <li> <strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI. </li>
+   <li> <strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI. </li>
+   <li> <strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University. </li>
     </ul>
 </dd>
---->
+-
 
 <!---  Blank line  --->
 <br/>
