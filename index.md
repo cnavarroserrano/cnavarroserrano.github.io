@@ -34,16 +34,6 @@ text-align: justify
   </dd>
 </dl>
 
--
-<dd> <h4> References </h4>
-    <ul>
-   <li> <strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist , Bank of Spain. </li>
-   <li> <strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI. </li>
-   <li> <strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI. </li>
-   <li> <strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University. </li>
-    </ul>
-</dd>
--
 
 <!---  Blank line  --->
 <br/>
@@ -152,6 +142,17 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">When should I expect the Spanish Inquisition? The Economics of denunciations</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://www.cemfi.es/people/faculty/profile_phd.asp?u=sanchez" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
 </dl>
+
+<!---  Blank line  --->
+<br/>
+<h3 id="references">References</h3>
+<br/>
+<dd> <h3> References </h3>
+  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist , Bank of Spain.</p></dt>
+  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI.</p></dt>
+  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI.</p></dt>
+  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University.</p></dt>
+</dd>
 
 
 
