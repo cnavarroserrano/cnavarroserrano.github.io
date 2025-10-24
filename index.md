@@ -58,14 +58,12 @@ text-align: justify
   <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
   <br/>
   <p>
-  After the Spanish Civil War (1936–1939), the Francoist regime carried out a political purge of the teaching workforce to enforce ideological conformity within the education system.
-  In this paper, we examine its consequences for the primary education system by constructing a novel dataset that digitizes and links purge and administrative records to track teacher careers and municipal-level staffing before and after the purge.
-  Using these data, we study how the large-scale purge and subsequent reorganization of the primary teaching workforce affected workforce composition and the local provision of education.
-  We document three main findings.
-  First, more competent teachers were dismissed at higher rates, lowering the overall quality of the teaching force.
-  Second, the purge reduced average teacher experience by about 2.5 years.
-  Third, although the regime sought to address local teacher shortages through geographic reallocations, coordination frictions in this process produced unintended staffing gaps--even in municipalities unaffected by the purge.
-  Overall, these results show that large-scale personnel reforms under autocratic rule can erode the quality of frontline workforces and undermine the state's capacity to deliver essential public services.
+  In autocracies, personnel decisions often prioritize ideological alignment over merit.
+  We investigate how such ideology-driven personnel selection affects the quality of the public workforce and its implications for state capacity.
+  We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936 - 1939).
+  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.2 years (12.5%).
+  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions generated widespread and persistent staffing deficits that spread to areas not directly affected.
+  Our findings show how ideology-driven personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails lasting capacity costs.
   </p>
   </dd>
 </dl>
