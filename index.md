@@ -144,15 +144,14 @@ text-align: justify
 </dl>
 
 <!---  Blank line  --->
-<br/>
+<!-- <br/>
 <h3 id="references">References</h3>
 <br/>
-<dd> <h3> References </h3>
   <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist , Bank of Spain.</p></dt>
   <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI.</p></dt>
   <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI.</p></dt>
   <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University.</p></dt>
-</dd>
+</dd> -->
 
 
 
