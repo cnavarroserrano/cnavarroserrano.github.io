@@ -43,8 +43,8 @@ text-align: justify
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Autocrats Remake the State: Evidence from Francoist Spain</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
-  <!-- <a class="paper" href="papers/XXX.pdf" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a> -->
+  <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
   <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
   <br/>
   <p>
