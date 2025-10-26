@@ -27,10 +27,11 @@ text-align: justify
 <dl>
   <dd class="indented">
     I am a PhD candidate in Economics at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
-    I am on the 2025-2026 Job Market.
-    My research interests lie in political economy, economic history, and development economics. 
-    <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
+    My research interests lie in political economy, economic history, and development economics.     
     You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
+    <br/>
+    I am on the 2025-2026 Job Market.
+    <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
   </dd>
 </dl>
 
