@@ -184,7 +184,7 @@ text-align: justify
 <br/>
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;"><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" style="color:#000 !important; text-decoration: none;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></p></strong></dt> <br>
-  In <i>Natural Resources and Divergence: A Comparison of Andean and Nordic Trajectories</i>, 2021.
+  <dd class="indented"><p>In <i>Natural Resources and Divergence: A Comparison of Andean and Nordic Trajectories</i>, 2021.</p></dd>
   <dd class="indented"><p><i>with <a href="https://webgrec.ub.edu/webpages/000005/cas/mbadia.ub.edu.html" target="_blank">Marc Badia-Miró</a>, <a href="https://joseperescajias.com/" target="_blank">José Peres-Cajías</a> and <a href="https://webgrec.ub.edu/webpages/000005/cas/annacarrerasmarin.ub.edu.html" target="_blank">Anna Carreras Marin</a> .</i></p>
   </dd>
 </dl>
