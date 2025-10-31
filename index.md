@@ -140,7 +140,7 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">When should I expect the Spanish Inquisition? The Economics of denunciations</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://www.cemfi.es/people/faculty/profile_phd.asp?u=sanchez" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
+  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
 </dl>
 
 <!---  Blank line  --->
