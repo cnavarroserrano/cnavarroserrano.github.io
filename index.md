@@ -49,11 +49,11 @@ text-align: justify
   <br/>
   <p>
   In autocracies, personnel decisions often prioritize ideological alignment over merit.
-  We investigate how such ideology-driven personnel selection affects the quality of the public workforce and its implications for state capacity.
-  We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936 - 1939).
-  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.2 years (12.5%).
-  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions generated widespread and persistent staffing deficits that spread to areas not directly affected.
-  Our findings show how ideology-driven personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails lasting capacity costs.
+  We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
+  We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
+  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.5 years (14.2%).
+  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions left persistent staffing deficits that spread to areas not directly affected.
+  Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails lasting capacity costs.
   </p>
   </dd>
 </dl>
