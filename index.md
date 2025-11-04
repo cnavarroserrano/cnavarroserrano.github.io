@@ -121,7 +121,11 @@ text-align: justify
   </p>
 
   <div id="abstract_homelessness" hidden>
-    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
+    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain.
+    Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model.
+    Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction.
+    However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved.
+    The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
   </div>
   </dd>
 
@@ -153,10 +157,13 @@ text-align: justify
 
   <div id="abstract_ballots" hidden>
     <p>
-    Following the 2010 Citizens United Supreme Court decision, political campaigns in the United States have operated without effective spending limits.
-    We study how unrestricted campaign advertising expenditures shape electoral outcomes.
-    Using county-level data on ballot measure outcomes and television advertising for state-level referendums, which experienced a notable rise in campaign contributions, we find reduced-form evidence consistent with persuasive rather than informative advertising.
-    We develop a structural model capturing strategic interaction between opposing campaigns to assess counterfactual outcomes under different spending cap thresholds.
+    The 2010 Citizens United Supreme Court decision effectively lifted limits on political campaign expenditures.
+    We study how unrestricted campaign advertising shapes electoral outcomes.
+    On the one hand, advertising may inform the electorate about the upcoming election, resulting in higher participation rates.
+    On the other hand, advertising may also persuade the electorate, tilting the outcome in favor of the best-funded campaign.
+    We collect county-level data on fifty state-level ballot measure outcomes, as well as the universe of television ads for those referendums.
+    Exploiting exogenous geographical variation across state and media market frontiers, we find no significant evidence of an informative effect.
+    In contrast, the reduced-form evidence suggests a significant persuasive effect of political advertising. We develop a structural model capturing the strategic interaction between opposing campaigns to assess counterfactual election outcomes under different spending cap thresholds.
   </p> 
   </div>
   </dd>
