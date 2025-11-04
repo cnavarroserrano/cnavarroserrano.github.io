@@ -157,13 +157,13 @@ text-align: justify
 
   <div id="abstract_ballots" hidden>
     <p>
-    The 2010 Citizens United Supreme Court decision effectively lifted limits on political campaign expenditures.
-    We study how unrestricted campaign advertising shapes electoral outcomes.
-    On the one hand, advertising may inform the electorate about the upcoming election, resulting in higher participation rates.
-    On the other hand, advertising may also persuade the electorate, tilting the outcome in favor of the best-funded campaign.
-    We collect county-level data on fifty state-level ballot measure outcomes, as well as the universe of television ads for those referendums.
-    Exploiting exogenous geographical variation across state and media market frontiers, we find no significant evidence of an informative effect.
-    In contrast, the reduced-form evidence suggests a significant persuasive effect of political advertising. We develop a structural model capturing the strategic interaction between opposing campaigns to assess counterfactual election outcomes under different spending cap thresholds.
+    We study how the stringency of campaign expenditure limits shapes elections.
+    On the one hand, unrestricted spending may increase participation by providing voters with more information through increased advertising.
+    On the other hand, unrestricted advertising may persuade the electorate towards the best-funded campaign.
+    We collect county-level outcomes on fifty state-level ballot measures in the US, as well as the universe of television ads for those referendums.
+    Exploiting exogenous geographical variation between state and media market boundaries, we find no significant evidence of an informative effect of political advertising.
+    In contrast, the reduced-form evidence suggests a significant persuasive effect.
+    We develop a structural model capturing the strategic interaction between opposing campaigns to assess counterfactual election outcomes under alternative campaign expenditure limits.
   </p> 
   </div>
   </dd>
