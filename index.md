@@ -144,16 +144,21 @@ text-align: justify
     <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
     </a>
-    <!-- <span>|</span>
+    <span>|</span>
     <a href="#" class="abs-toggle"
-      onclick="const el=document.getElementById('abstract_homelessness');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      onclick="const el=document.getElementById('abstract_ballots');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
       <span class="sign">+</span> Abstract
-    </a> -->
+    </a>
   </p>
 
-  <!-- <div id="abstract_homelessness" hidden>
-    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p> 
-  </div> -->
+  <div id="abstract_ballots" hidden>
+    <p>
+    Following the 2010 Citizens United Supreme Court decision, political campaigns in the United States have operated without effective spending limits.
+    We study how unrestricted campaign advertising expenditures shape electoral outcomes.
+    Using county-level data on ballot measure outcomes and television advertising for state-level referendums, which experienced a notable rise in campaign contributions, we find reduced-form evidence consistent with persuasive rather than informative advertising.
+    We develop a structural model capturing strategic interaction between opposing campaigns to assess counterfactual outcomes under different spending cap thresholds.
+  </p> 
+  </div>
   </dd>
 
 <div style="height:22px;"></div>
