@@ -156,8 +156,32 @@ text-align: justify
   </div> -->
   </dd>
 
+<div style="height:22px;"></div>
+
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
+  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a>.</i></p>
+  
+  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <!-- <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
+    </a>
+    <span>|</span> -->
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_inquisition');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a>
+  </p>
+
+  <div id="abstract_inquisition" hidden>
+    <p>
+    What motivates denunciation under institutions of social control?
+    Becoming an informer involves effort and potential social costs if one's identity is discovered.
+    We investigate whether informers are primarily driven by ideological conviction, personal animosities, or expectations of material rewards from the regime.
+    We draw on a unique corpus of more than 5,000 case instructions from the Spanish Inquisition in the 18th century, which include detailed testimonies from informers, defendants, and witnesses.
+    We use natural language processing to analyze these testimonies quantitatively and characterize informer motivation.
+</p> 
+  </div>
+  </dd>
 </dl>
 
 <!---  Blank line  --->
