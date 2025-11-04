@@ -152,8 +152,8 @@ text-align: justify
   </p>
 
   <!-- <div id="abstract_homelessness" hidden>
-    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p> -->
-  </div>
+    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p> 
+  </div> -->
   </dd>
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
