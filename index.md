@@ -138,7 +138,24 @@ text-align: justify
 <br/>
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p></dd>
+  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p>
+  
+  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
+    </a>
+    <!-- <span>|</span>
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_homelessness');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a> -->
+  </p>
+
+  <!-- <div id="abstract_homelessness" hidden>
+    <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain. Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model. Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction. However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved. The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p> -->
+  </div>
+  </dd>
+
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a>.</i></p></dd>
 </dl>
