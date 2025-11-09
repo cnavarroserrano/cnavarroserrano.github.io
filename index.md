@@ -165,7 +165,7 @@ text-align: justify
     Exploiting exogenous geographical variation between state and media market boundaries, we find no significant evidence of an informative effect of political advertising.
     In contrast, the reduced-form evidence suggests a significant persuasive effect.
     We develop a structural model capturing the strategic interaction between opposing campaigns to assess counterfactual election outcomes under alternative campaign expenditure limits.
-  </p> 
+    </p> 
   </div>
   </dd>
 
@@ -192,11 +192,13 @@ text-align: justify
     We investigate whether informers are primarily driven by ideological conviction, personal animosities, or expectations of material rewards from the regime.
     We draw on a unique corpus of more than 5,000 case instructions from the Spanish Inquisition in the 18th century, which include detailed testimonies from informers, defendants, and witnesses.
     We use natural language processing to analyze these testimonies quantitatively and characterize informer motivation.
-</p> 
+    </p> 
   </div>
   </dd>
 
-    <dt class="indented"><strong><p class="indented" style="margin: 0;">The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</p></strong></dt>
+<div style="height:22px;"></div>
+
+  <dt class="indented"><strong><p class="indented" style="margin: 0;">The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
   
   <!-- <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
@@ -213,7 +215,7 @@ text-align: justify
   <!-- <div id="abstract_eta" hidden>
     <p>
     (...).
-  </p> 
+    </p> 
   </div> -->
   </dd>
 
