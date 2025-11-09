@@ -51,8 +51,8 @@ text-align: justify
   In autocracies, personnel decisions often prioritize ideological alignment over merit.
   We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
   We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
-  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.5 years (14.2%).
-  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions left persistent staffing deficits that spread to areas not directly affected.
+  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.6 years (14.4%).
+  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions in this process left persistent staffing deficits that spread to areas not directly affected.
   Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails lasting capacity costs.
   </p>
   </dd>
@@ -107,7 +107,7 @@ text-align: justify
   </dt>
 
   <dd class="indented">
-    <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <a href="https://www.linkedin.com/in/bego%C3%B1a-varela-merino-7361751aa/" target="_blank">Begoña Varela Merino</a>.</i></p>
+    <p><i>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <span style="color: #3D7A66;">Begoña Varela Merino</span></i></p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
@@ -141,8 +141,9 @@ text-align: justify
 <h3 id="working-in-progress">Work in Progress</h3>
 <br/>
 <dl>
+
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a>.</i></p>
+  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a></i></p>
   
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
@@ -171,7 +172,7 @@ text-align: justify
 <div style="height:22px;"></div>
 
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a>.</i></p>
+  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a></i></p>
   
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <!-- <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
@@ -194,6 +195,28 @@ text-align: justify
 </p> 
   </div>
   </dd>
+
+    <dt class="indented"><strong><p class="indented" style="margin: 0;">The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</p></strong></dt>
+  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
+  
+  <!-- <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
+    </a>
+    <span>|</span>
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_eta');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a>
+  </p> -->
+
+  <!-- <div id="abstract_eta" hidden>
+    <p>
+    (...).
+  </p> 
+  </div> -->
+  </dd>
+
 </dl>
 
 <!---  Blank line  --->
