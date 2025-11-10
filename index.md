@@ -42,7 +42,7 @@ text-align: justify
 
 <dl>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Autocrats Remake the State: Evidence from Francoist Spain</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a>.</i></p>
+  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></i></p>
   <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
   <!-- <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span> -->
@@ -52,8 +52,8 @@ text-align: justify
   We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
   We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
   We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.6 years (14.4%).
-  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions in this process left persistent staffing deficits that spread to areas not directly affected.
-  Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails lasting capacity costs.
+  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions in this process left persistent staffing deficits that spread to areas less affected by the purge.
+  Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails sizable capacity costs.
   </p>
   </dd>
 </dl>
@@ -75,7 +75,7 @@ text-align: justify
   </dt>
 
   <dd class="indented">
-    <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a>.</i></p>
+    <p><i>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a></i></p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
