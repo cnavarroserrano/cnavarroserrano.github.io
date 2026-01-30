@@ -29,14 +29,14 @@ text-align: justify
     I am a PhD candidate in Economics at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history, and development economics.     
     You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
-    <span style="display:block; margin-top:0.35em;">I am on the <strong>2025-2026 Job Market</strong>.</span>
+    <!-- <span style="display:block; margin-top:0.35em;">I am on the <strong>2025-2026 Job Market</strong>.</span> -->
     <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
   </dd>
 </dl>
 
 
 <!---  Blank line  --->
-<br/>
+<!-- <br/>
 <h3 id="jmp">Job Market Paper</h3>
 <br/>
 
@@ -56,20 +56,48 @@ text-align: justify
   Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails sizable capacity costs.
   </p>
   </dd>
-</dl>
+</dl> -->
 
 
 <!---  Blank line  --->
-
 <br/>
 <h3 id="working-papers">Working Papers</h3>
 <br/>
 
-
-
 <dl>
 
   <!-- Paper 1 -->
+  <dt class="indented">
+    <strong>Autocrats Remake the State: Evidence from Francoist Spain</strong>
+  </dt>
+
+  <dd class="indented">
+    <p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></i></p>
+
+  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+    <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
+    </a>
+    <span>|</span>
+    <a href="#" class="abs-toggle"
+      onclick="const el=document.getElementById('abstract_autocratsremakestate');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
+      <span class="sign">+</span> Abstract
+    </a>
+  </p>
+
+  <div id="abstract_seedsofprejudice" hidden>
+    <p>In autocracies, personnel decisions often prioritize ideological alignment over merit.
+        We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
+        We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
+        We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.6 years (14.4%).
+        Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions in this process left persistent staffing deficits that spread to areas less affected by the purge.
+        Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails sizable capacity costs.</p>
+  </div>
+  </dd>
+
+  <div style="height:22px;"></div>
+
+  <!-- Paper 2 -->
   <dt class="indented">
     <strong>Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</strong>
   </dt>
@@ -99,9 +127,9 @@ text-align: justify
   </div>
   </dd>
   
-<div style="height:22px;"></div>
+  <div style="height:22px;"></div>
 
-<!-- Paper 2 -->
+  <!-- Paper 3 -->
   <dt class="indented">
     <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
   </dt>
@@ -130,9 +158,6 @@ text-align: justify
   </dd>
 
 </dl>
-
-
-
 
 
 <!---  Blank line  --->
