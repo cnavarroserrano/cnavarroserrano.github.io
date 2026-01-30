@@ -45,7 +45,7 @@ text-align: justify
   <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></i></p>
   <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <!-- <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span> -->
+  <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
   <br/>
   <p>
   In autocracies, personnel decisions often prioritize ideological alignment over merit.
@@ -69,6 +69,7 @@ text-align: justify
   <!-- Paper 1 -->
   <dt class="indented">
     <strong>Autocrats Remake the State: Evidence from Francoist Spain</strong>
+    <em style="color:#3D7A66;"> – Job Market Paper</em>
   </dt>
 
   <dd class="indented">
