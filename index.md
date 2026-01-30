@@ -86,7 +86,7 @@ text-align: justify
     </a>
   </p>
 
-  <div id="abstract_seedsofprejudice" hidden>
+  <div id="abstract_autocratsremakestate" hidden>
     <p>In autocracies, personnel decisions often prioritize ideological alignment over merit.
         We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
         We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
