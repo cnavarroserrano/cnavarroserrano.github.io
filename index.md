@@ -69,7 +69,7 @@ text-align: justify
   <!-- Paper 1 -->
   <dt class="indented">
     <strong>Autocrats Remake the State: Evidence from Francoist Spain</strong>
-    <em style="color:#3D7A66;"> – Job Market Paper</em>
+    <em style="color:#3D7A66;"> (Job Market Paper)</em>
   </dt>
 
   <dd class="indented">
