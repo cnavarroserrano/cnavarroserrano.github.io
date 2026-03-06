@@ -3,6 +3,7 @@ My personal website hosted at
 Usual changes
 - Pictures: includes/sidebar
 - Color: _layouts/default
+- Themes list: public/CSS/hyde
 
 
 Built with [Jekyll](http://jekyllrb.com) and [Hyde](http://hyde.getpoole.com).
