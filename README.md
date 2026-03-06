@@ -1,4 +1,9 @@
-My personal website hosted at pelloaspuru.github.io
+My personal website hosted at 
+
+Usual changes
+- Pictures: includes/sidebar
+- Color: _layouts/default
+
 
 Built with [Jekyll](http://jekyllrb.com) and [Hyde](http://hyde.getpoole.com).
 
