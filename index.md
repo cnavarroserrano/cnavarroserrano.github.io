@@ -137,10 +137,11 @@ text-align: justify
 
   <dd class="indented">
     <p>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <span style="color: #ac4142;">Begoña Varela Merino</span><br>
-    <i>Revisions requested, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i></p>  
+    <i>Revisions requested, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i><br>
+    <i><span style="color: #ac4142;">New version available!</span></i></p>  
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-    <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/WP_RCT_homelessness_260324.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
     <span>|</span>
