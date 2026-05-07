@@ -107,7 +107,7 @@ text-align: justify
     <p>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a></p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-    <a class="paper" href="papers/WP_seedsofprejudice.pdf" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/WP_seedsofprejudice_may26.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
     <span>|</span>
