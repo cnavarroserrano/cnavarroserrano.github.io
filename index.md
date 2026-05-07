@@ -104,7 +104,9 @@ text-align: justify
   </dt>
 
   <dd class="indented">
-    <p>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a></p>
+    <p>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a><br>
+    <i>Submitted</i><br>
+    <i><span style="color: #ac4142;">New version available!</span></i></p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/WP_seedsofprejudice_may26.pdf" target="_blank" rel="noopener noreferrer">
