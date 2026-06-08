@@ -26,7 +26,7 @@ text-align: justify
 <br/>
 <dl>
   <dd class="indented">
-    I am a PhD candidate in Economics at <a href="https://cemfi.es" target="_blank">CEMFI</a>.
+    I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history, and development economics.     
     You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
     <!-- <span style="display:block; margin-top:0.35em;">I am on the <strong>2025-2026 Job Market</strong>.</span> -->
@@ -105,8 +105,8 @@ text-align: justify
 
   <dd class="indented">
     <p>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a><br>
-    <i>Submitted</i><br>
-    <i><span style="color: #ac4142;">New version available!</span></i></p>
+    <i>Submitted</i> <i><span style="color: #ac4142;">New version (May 2026)</span></i>
+  </p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/WP_seedsofprejudice_may26.pdf" target="_blank" rel="noopener noreferrer">
@@ -139,8 +139,8 @@ text-align: justify
 
   <dd class="indented">
     <p>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <span style="color: #ac4142;">Begoña Varela Merino</span><br>
-    <i>Resubmitted, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i><br>
-    <i><span style="color: #ac4142;">New version available!</span></i></p>  
+    <i>Accepted, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i><br>
+  </p>  
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
     <a class="paper" href="papers/WP_RCT_homelessness_260324.pdf" target="_blank" rel="noopener noreferrer">
