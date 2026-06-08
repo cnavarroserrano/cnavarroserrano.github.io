@@ -105,7 +105,7 @@ text-align: justify
 
   <dd class="indented">
     <p>with <a href="https://sites.google.com/view/alexsandroscavgias/home" target="_blank">Alexsandros Cavgias</a><br>
-    <i>Submitted</i> <i><span style="color: #ac4142;">New version (May 2026)</span></i>
+    <i>Submitted - New version (May 2026)</i>
   </p>
 
   <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
