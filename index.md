@@ -156,7 +156,7 @@ text-align: justify
   <div id="abstract_homelessness" hidden>
     <p>We evaluate the impact of a randomized intervention designed to promote labor market integration among people experiencing homelessness in Spain.
     Participants were randomly assigned to either a personalized employment program, featuring intensive caseworker support and financial assistance, or to the traditional employment model.
-    Short-term results show substantial gains for the treatment group in housing stability, employment, income, and life satisfaction.
+    Short-term results show larger improvements in housing stability, labor market integration and employment income for individuals in the personalized treatment.
     However, these differences largely dissipated after six months, as the outcomes of those in the traditional model improved.
     The findings highlight both the potential of personalized approaches to accelerate integration and the challenges of sustaining long-term effects in homelessness interventions.</p>
   </div>
