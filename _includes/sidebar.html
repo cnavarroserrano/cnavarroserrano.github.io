@@ -41,6 +41,14 @@
     margin-top: 0 !important;
   }
 
+  .sidebar-logo {
+  display: block;
+  width: 80%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 12px;
+}
+
   /* Also treat SHORT viewports in PC like mobile to avoid head crop when zoomed */
   @media (max-height: 600px){
   .sidebar .sidebar-photo{
@@ -58,7 +66,11 @@
 
 <div class="sidebar">
   <div class="sidebar-inner">
-    <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="Foto">
+    <img
+      src="{{ '/photos/Logo-Test.jpg' | relative_url }}"
+      class="sidebar-logo"
+      alt="Logo trial"
+  >
   <!-- <div class="container sidebar-sticky"> This line fixes the sidebar, with the disadvantage of it not fitting some screen proportions -->
   <div class="sidebar-about">
         <!-- <img src="/photos/foto.jpg" alt="foto" class="inline"/>  --> <!---  Vertical pic, original  --->
@@ -89,7 +101,7 @@
     <span style="display:block; height:0.5em;"></span>  
     <a href="#welcome">About</a>
     <br>
-    <a href="working-papers">Research</a>
+    <a href="#working-papers">Research</a>
     <br>
     <a href="#teaching">Teaching</a>
     <br>
