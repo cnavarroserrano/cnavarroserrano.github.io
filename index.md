@@ -273,7 +273,7 @@ text-align: justify
   <dd class="indented">
     <p>
     CEMFI graduate course. <br>
-    Teaching assistant for Professor Guillermo Caruana. Winter 2024. <br>
+    Teaching assistant for Professor Guillermo Caruana. Winter 2024, Winter 2025. <br>
     </p>
   </dd>
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Markets and Organizations</p></strong></dt>
