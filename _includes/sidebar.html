@@ -1,43 +1,30 @@
 <style>
   /* =========================================================
-     AJUSTES PRINCIPALES
+     CONFIGURACIÓN
 
-     Para cambiar el ancho máximo de la sidebar:
-       modifica 300px.
-
-     Para cambiar la proporción de altura de la foto:
-       modifica 55vh / 55dvh.
+     Cambia únicamente este valor si quieres una sidebar
+     ligeramente más ancha o estrecha.
      ========================================================= */
 
   :root {
-    --sidebar-desktop-width: clamp(220px, 19vw, 300px);
+    --sidebar-width: 300px;
   }
 
 
   /* =========================================================
-     MÓVIL: COMPORTAMIENTO POR DEFECTO
+     MÓVIL: ESTADO BASE
 
-     La sidebar ocupa todo el ancho.
-     La fotografía se muestra completa.
-     El contenido principal aparece debajo.
+     Foto completa, texto debajo y contenido principal después.
      ========================================================= */
 
   .sidebar {
     position: relative !important;
 
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    left: auto !important;
-
     width: 100% !important;
-    max-width: none !important;
-
     height: auto !important;
-    min-height: 0 !important;
 
-    padding: 0 !important;
     margin: 0 !important;
+    padding: 0 !important;
 
     overflow: visible !important;
   }
@@ -47,25 +34,17 @@
 
     width: 100%;
     height: auto;
-    min-height: 0;
 
+    margin: 0;
     padding: 0 !important;
-    margin: 0 !important;
   }
 
 
-  /* =========================================================
-     FOTO EN MÓVIL
-
-     height:auto impide que aparezca solamente la frente.
-     ========================================================= */
+  /* FOTO EN MÓVIL */
 
   .sidebar-photo-container {
-    display: block;
-
     width: 100%;
-    height: auto !important;
-    min-height: 0;
+    height: auto;
 
     margin: 0;
     padding: 0;
@@ -77,32 +56,23 @@
     display: block;
 
     width: 100%;
-    height: auto !important;
-    max-height: none !important;
+    height: auto;
+    max-height: none;
 
     margin: 0;
     padding: 0;
 
-    object-fit: contain !important;
-    object-position: center top !important;
+    object-fit: contain;
+    object-position: center top;
 
-    transform: none !important;
+    transform: none;
   }
 
 
-  /* =========================================================
-     BLOQUE INFERIOR
-     ========================================================= */
+  /* BLOQUE INFERIOR */
 
   .sidebar-about {
     position: static !important;
-
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    left: auto !important;
-
-    display: block;
 
     width: 100%;
     box-sizing: border-box;
@@ -110,20 +80,16 @@
     margin: 0 !important;
     padding: 18px 20px 22px !important;
 
-    overflow: visible;
     transform: none !important;
   }
 
 
-  /* =========================================================
-     LOGO
-     ========================================================= */
+  /* LOGO */
 
   .sidebar-logo {
     display: block;
 
     width: 70%;
-    min-width: 110px;
     max-width: 220px;
     height: auto;
 
@@ -131,9 +97,7 @@
   }
 
 
-  /* =========================================================
-     NOMBRE
-     ========================================================= */
+  /* NOMBRE */
 
   .sidebar-name-link {
     color: white;
@@ -149,14 +113,12 @@
     margin: 0 0 2px !important;
 
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.05;
   }
 
 
-  /* =========================================================
-     INFORMACIÓN Y EMAIL
-     ========================================================= */
+  /* INFORMACIÓN */
 
   .sidebar-about .lead {
     margin: 8px 0 24px;
@@ -170,9 +132,7 @@
   }
 
 
-  /* =========================================================
-     MENÚ
-     ========================================================= */
+  /* MENÚ */
 
   .sidebar-navigation {
     line-height: 1.4;
@@ -183,49 +143,49 @@
   }
 
 
-  /* =========================================================
-     CONTENIDO PRINCIPAL EN MÓVIL
-
-     Esto elimina el margen de escritorio que estaba dejando
-     la columna blanca a la derecha de la sidebar estrecha.
-     ========================================================= */
+  /* CONTENIDO PRINCIPAL EN MÓVIL */
 
   .content,
   .content.container {
     margin-left: 0 !important;
-    margin-right: auto !important;
   }
 
 
   /* =========================================================
      ESCRITORIO
 
-     Sidebar y contenido cambian de modo exactamente en el mismo
-     breakpoint. No puede existir un estado intermedio.
-
-     La fotografía tiene una altura independiente del texto.
-     Por eso no gana altura cuando el texto cambia de tamaño
-     o salta de línea.
+     - Sidebar fija de 300 px.
+     - Texto inferior de tamaño constante.
+     - Foto ocupa el espacio restante.
+     - Si falta altura, se recorta la foto.
      ========================================================= */
 
-  @media (min-width: 800px) {
+  @media (min-width: 48em) {
 
     .sidebar {
       position: fixed !important;
 
       top: 0 !important;
-      right: auto !important;
       bottom: 0 !important;
       left: 0 !important;
+      right: auto !important;
 
-      width: var(--sidebar-desktop-width) !important;
-      max-width: 300px !important;
+      width: var(--sidebar-width) !important;
+      max-width: var(--sidebar-width) !important;
 
       height: 100vh !important;
-      height: 100dvh !important;
+
+      margin: 0 !important;
+      padding: 0 !important;
 
       overflow: hidden !important;
     }
+
+
+    /* Dos bloques:
+       1. Foto flexible
+       2. Texto con su altura natural y fija
+    */
 
     .sidebar-inner {
       display: flex;
@@ -233,197 +193,97 @@
 
       width: 100%;
       height: 100%;
+
       min-height: 0;
+
+      margin: 0;
+      padding: 0 !important;
     }
 
 
-    /* =======================================================
-       FOTO EN ESCRITORIO
-
-       Su altura depende únicamente de la altura del viewport.
-
-       Al aumentar el zoom:
-       - disminuye el viewport en píxeles CSS;
-       - disminuye 55vh;
-       - la fotografía pierde altura de forma continua.
-
-       El texto ya no puede hacer que la fotografía crezca.
-       ======================================================= */
+    /* La foto absorbe toda la reducción vertical */
 
     .sidebar-photo-container {
-      flex: 0 0 auto;
+      flex: 1 1 0;
 
       width: 100%;
+      min-height: 0;
 
-      height: clamp(160px, 55vh, 520px) !important;
-      height: clamp(160px, 55dvh, 520px) !important;
+      margin: 0;
+      padding: 0;
 
       overflow: hidden;
     }
 
     .sidebar .sidebar-photo {
-      width: 100%;
-      height: 100% !important;
-      max-height: none !important;
+      display: block;
 
-      object-fit: cover !important;
-      object-position: center top !important;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+
+      margin: 0;
+      padding: 0;
+
+      object-fit: cover;
+      object-position: center top;
+
+      transform: none;
     }
 
 
-    /* =======================================================
-       TEXTO EN ESCRITORIO
-
-       Ocupa el espacio inferior. Si excepcionalmente no cabe,
-       se desplaza internamente, pero nunca pisa la fotografía.
-       ======================================================= */
+    /* El texto nunca invade la fotografía */
 
     .sidebar-about {
-      flex: 1 1 auto;
-      min-height: 0;
+      position: static !important;
 
-      padding:
-        clamp(8px, 1.4vh, 14px)
-        clamp(14px, 1.3vw, 20px)
-        clamp(10px, 1.8vh, 18px)
-        !important;
+      flex: 0 0 auto;
 
-      overflow-x: hidden;
-      overflow-y: auto;
+      width: 100%;
+      box-sizing: border-box;
+
+      margin: 0 !important;
+      padding: 14px 20px 18px !important;
+
+      overflow: hidden !important;
+      transform: none !important;
     }
 
 
-    /* Logo: reducción continua, sin breakpoints verticales */
+    /* Tamaños completamente fijos */
 
     .sidebar-logo {
-      width: 72%;
-      min-width: 105px;
-      max-width: 200px;
+      width: 80%;
+      max-width: 220px;
 
-      margin-bottom: clamp(6px, 1.2vh, 12px);
+      margin: 0 auto 12px;
     }
 
-
-    /* Nombre: reducción continua */
-
     .sidebar-about h1 {
-      font-size: clamp(
-        1.5rem,
-        calc(1rem + 1.8vh),
-        2.2rem
-      );
+      margin: 0 0 2px !important;
 
+      font-size: 2.2rem;
       line-height: 1.05;
     }
 
-
-    /* Información: reducción continua */
-
     .sidebar-about .lead {
-      margin:
-        clamp(4px, 0.8vh, 8px)
-        0
-        clamp(10px, 2vh, 24px);
+      margin: 8px 0 24px;
 
-      font-size: clamp(
-        0.72rem,
-        calc(0.58rem + 0.5vh),
-        0.9rem
-      );
-
-      line-height: 1.3;
+      font-size: 0.9rem;
+      line-height: 1.35;
     }
-
-
-    /* Menú: reducción continua */
 
     .sidebar-navigation {
-      font-size: clamp(
-        0.82rem,
-        calc(0.65rem + 0.55vh),
-        1rem
-      );
-
-      line-height: 1.3;
+      font-size: 1rem;
+      line-height: 1.4;
     }
 
 
-    /* El contenido empieza exactamente después de la sidebar */
+    /* El contenido comienza después de la sidebar */
 
     .content,
     .content.container {
-      margin-left: var(--sidebar-desktop-width) !important;
-      margin-right: auto !important;
-    }
-  }
-
-
-  /* =========================================================
-     MÓVIL EXPLÍCITO
-
-     Se repiten los resets importantes con mayor prioridad para
-     neutralizar cualquier media query del tema.
-     ========================================================= */
-
-  @media (max-width: 799px) {
-
-    .sidebar {
-      position: relative !important;
-
-      top: auto !important;
-      right: auto !important;
-      bottom: auto !important;
-      left: auto !important;
-
-      width: 100% !important;
-      max-width: none !important;
-
-      height: auto !important;
-      min-height: 0 !important;
-
-      overflow: visible !important;
-    }
-
-    .sidebar-inner {
-      display: block !important;
-
-      width: 100% !important;
-      height: auto !important;
-    }
-
-    .sidebar-photo-container {
-      width: 100% !important;
-      height: auto !important;
-
-      overflow: visible !important;
-    }
-
-    .sidebar .sidebar-photo {
-      display: block !important;
-
-      width: 100% !important;
-      height: auto !important;
-      max-height: none !important;
-
-      object-fit: contain !important;
-      object-position: center top !important;
-    }
-
-    .sidebar-about {
-      width: 100% !important;
-      height: auto !important;
-
-      overflow: visible !important;
-    }
-
-    .content,
-    .content.container {
-      width: auto !important;
-
-      margin-left: 0 !important;
-      margin-right: auto !important;
-
-      padding-top: 2rem !important;
+      margin-left: var(--sidebar-width) !important;
     }
   }
 </style>
@@ -443,7 +303,7 @@
     </div>
 
 
-    <!-- CONTENIDO INFERIOR -->
+    <!-- BLOQUE INFERIOR -->
     <div class="sidebar-about">
 
       <!-- LOGO -->
