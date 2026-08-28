@@ -420,7 +420,16 @@ a.sidebar-nav-item:active {
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
 
-/* Red */
+/* URV red */
+.theme-base-urvred .sidebar {
+  background-color: #90292A;
+}
+.theme-base-urvred .content a,
+.theme-base-urvred .related-posts li a:hover {
+  color: #90292A;
+}
+
+/* Green */
 .theme-base-mygreen .sidebar {
   background-color: #4A5D4E;
 }
