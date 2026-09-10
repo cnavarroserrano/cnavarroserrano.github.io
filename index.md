@@ -75,7 +75,7 @@ text-align: justify
   <dd class="indented">
     <p>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></p>
 
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+  <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
@@ -108,7 +108,7 @@ text-align: justify
     <i>Submitted - New version (May 2026)</i>
   </p>
 
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+  <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/WP_seedsofprejudice_may26.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
@@ -142,7 +142,7 @@ text-align: justify
     <i>Accepted, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i><br>
   </p>  
 
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+  <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
@@ -175,7 +175,7 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a></i></p>
   
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+  <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
     </a>
@@ -204,7 +204,7 @@ text-align: justify
   <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
   <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a></i></p>
   
-  <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
+  <p class="paper-row" style="margin:1px 0 0;">
     <!-- <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
     </a>

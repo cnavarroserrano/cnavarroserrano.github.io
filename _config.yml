@@ -1,39 +1,16 @@
-# Dependencies
-
-#markdown: kramdown
-#kramdown: 
-#  input: GFM
-#  toc_levels: 1..2
-  # parse_block_html: true
-
-# markdown: CommonMarkGhPages
-
 highlighter:      rouge
-
-# Permalinks
-# permalink:        pretty
-
-# Setup
 title:            "Cristian Navarro"
 tagline:          ''
 description:      'PhD in Economics from CEMFI, Madrid'
 url:              https://cristian-navarro.com
 baseurl:          ''
 
-# For changing favicon (does not work)
-# authorimage = "/photos/favicon_lemon.ico"
-
 author:
   name:           'Cristian Navarro'
+  email:          'cnavarroserrano@gmail.com'
 
 paginate:         10
 paginate_path:    "/blog/page:num/"
-
-# Custom vars
-# version:          2.1.0
-
-# github:           
-#   repo:           https://github.com/pelloaspuru/pelloaspuru.github.io
 
 plugins: 
   - jekyll-paginate
@@ -44,7 +21,11 @@ plugins:
 
 disqus:
   shortname: cnavarroserrano
-  
+
+# Optional Google Analytics 4 measurement ID (for example, G-XXXXXXXXXX).
+# Leave blank to disable analytics.
+google_analytics: ''
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -

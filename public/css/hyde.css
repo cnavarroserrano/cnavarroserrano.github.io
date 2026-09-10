@@ -31,36 +31,6 @@
  * Update the foundational and global aspects of the page.
  */
 
-/* Define a new type of font: Rotis Semi Sans (RSS) */
-
-@font-face {
-    font-family: "RSS_extra_bold";
-    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Extra Bold.otf') format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "RSS_bold";
-    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Bold.otf') format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "RSS_italic";
-    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Italic.otf') format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "RSS_light_italic";
-    src: url('/fonts/metro_bilbao/Rotis Semi Sans Std 65 Light Italic.otf') format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
 /* Define a new type of fonts: CooperHewitt (CH) */
 
 @font-face {
@@ -179,12 +149,6 @@ html {
   padding: 2rem 1rem; /*Sets top and bottom padding at 2rem, left-right padding at 1rem*/
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  /* background-image: url("../../photos/PELLO (53).jpg"); */
-  /*  background-image: 
-      linear-gradient(to bottom, rgba(32, 32, 32, 0.0), rgba(245, 246, 252, 0.0), rgba(32, 32, 32, 0.85)), 
-      url("../../photos/PELLO (88) black_white.jpg");
-  background-size: cover;
-  background-position: center; */ /* Gradient from transparent to gray */
 }
 
 .sidebar-photo {

@@ -1,9 +1,25 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
 
-*.ipynb
-.idea/workspace.xml
-.idea/markdown-navigator.xml
-.idea/workspace.xml
+# Jekyll and Ruby build artifacts
 _site/
-.jekyll-cache
-_site
-_site/publication/index.html
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Local runtime files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+.Rhistory
+
+# Python caches
+__pycache__/
+*.py[cod]

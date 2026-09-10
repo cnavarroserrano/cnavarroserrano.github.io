@@ -8,7 +8,7 @@
 a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; margin:0; }
 
 /* One-row container for Draft | Abstract */
-.paper-row{ display:flex; align-items:baseline; gap:.5ch; color:var(--bs-link-color,#b2433f); }
+.paper-row{ display:flex; align-items:baseline; gap:.5ch; }
 
 /* Abstract toggle (+ / –) */
 .abs-toggle{ display:inline-flex; align-items:center; gap:.4ch; text-decoration:none; }
