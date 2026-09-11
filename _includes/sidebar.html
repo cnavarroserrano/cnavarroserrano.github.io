@@ -62,6 +62,7 @@
     .sidebar-inner {
       display: grid;
       grid-template-rows: minmax(0, 1fr) auto;
+      row-gap: clamp(5px, 1vh, 8px); /* Guarantees a small red buffer below the portrait. */
       height: 100%;
     }
 

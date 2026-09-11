@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive layout test</title>
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+</head>
+<body class="theme-base-urvred">
+  <style>
+    .sidebar { padding: 0 !important; overflow: hidden; }
+    .sidebar-inner { padding: 0 !important; }
+    .sidebar .sidebar-photo {
+      display: block; width: 100%; height: auto; max-height: none;
+      object-fit: contain; object-position: center top; transform: translateY(0%);
+    }
+    @media (min-width: 521px) and (max-width: 64.999em) {
+      .sidebar .sidebar-photo {
+        width: auto; max-width: 100%; height: min(55vh, 520px); margin: 0 auto;
+      }
+    }
+    .sidebar-about {
+      display: flow-root; padding: 14px 20px 0 !important;
+      border-top: 1px solid transparent;
+    }
+    .sidebar-about h1 { margin-top: 0 !important; }
+    @media (min-width: 65em) {
+      :root { --sidebar-width: clamp(14rem, calc(100vh - 300px), 16rem); }
+      .sidebar {
+        width: var(--sidebar-width); overflow-x: hidden; overflow-y: auto;
+      }
+      .sidebar-inner {
+        display: grid; grid-template-rows: minmax(0, 1fr) auto;
+        row-gap: clamp(5px, 1vh, 8px); height: 100%;
+      }
+      .sidebar .sidebar-photo {
+        width: 100%;
+        height: min(520px, clamp(55vh, calc(40vh + 140px), 65vh));
+        max-height: 100%; margin: 0; object-fit: cover;
+      }
+      .sidebar-about {
+        position: static; width: 100%; box-sizing: border-box; align-self: end;
+        padding: clamp(8px, 2vh, 14px) 20px min(1.5rem, 2.667vh) !important;
+        font-size: clamp(0.875rem, 2.3vh, 1rem);
+      }
+      .sidebar-about h1 { font-size: clamp(1.55rem, 5vh, 2.2rem) !important; }
+      .sidebar-about .lead {
+        margin-bottom: clamp(0.35rem, 2.286vh, 1rem);
+        font-size: clamp(0.8rem, 2.1vh, 0.9rem) !important;
+      }
+      .sidebar-about > span { height: clamp(0.2em, 1.143vh, 0.5em) !important; }
+      .sidebar-about > br:last-child { display: none; }
+      .content { margin-left: calc(var(--sidebar-width) + 6rem); }
+    }
+  </style>
+  <div class="sidebar">
+    <div class="sidebar-inner">
+      <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="Portrait test">
+      <div class="sidebar-about">
+        <a href="#" style="color: white;">
+          <h1 style="color: white; font-size: 2.2rem; margin-bottom: 1px;">CRISTIAN NAVARRO</h1>
+        </a>
+        <p class="lead" style="font-size: 0.9rem">
+          PhD in Economics, <a href="#">CEMFI</a><br>
+          <a href="#">cnavarroserrano@gmail.com</a>
+        </p>
+        <span style="display: block; height: 0.5em;"></span>
+        <a href="#welcome">About</a><br>
+        <a href="#research">Research</a><br>
+        <a href="#teaching">Teaching</a><br><br>
+      </div>
+    </div>
+  </div>
+  <main class="content container">
+    <h3 id="welcome">Welcome!</h3>
+    <p>This content represents the existing single-column page.</p>
+    <h3 id="research">Working Papers</h3>
+    <p>Representative publication content for responsive testing.</p>
+    <h3 id="teaching">Teaching</h3>
+    <p>Representative teaching content for responsive testing.</p>
+  </main>
+</body>
+</html>
