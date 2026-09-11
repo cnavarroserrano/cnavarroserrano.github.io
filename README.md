@@ -87,6 +87,10 @@ Conviene mantener estables los nombres públicos de los PDF para no romper
 enlaces existentes. Si cambia un nombre, su referencia en `index.md` debe
 actualizarse en el mismo commit.
 
+La carpeta `papers/` también funciona como histórico de versiones. Un PDF que
+no tenga un enlace activo puede formar parte de ese seguimiento y no debe
+eliminarse únicamente por estar sin referencias.
+
 Cada control de resumen en `index.md` contiene:
 
 - un enlace con la clase `abs-toggle`;
@@ -137,3 +141,71 @@ Después de publicar, revisar:
 La web está basada en [Hyde](https://github.com/poole/hyde), distribuido con
 licencia MIT. La licencia original se conserva en `LICENSE.md`. La tipografía
 Cooper Hewitt se acredita en el pie de la página.
+
+## Referencia de archivos permanentes
+
+Esta referencia enumera los archivos técnicos que forman la web. No detalla el
+contenido reemplazable de `papers/`, `photos/`, `resume/`, `icons/` o
+`fonts/`.
+
+### Archivos de la raíz
+
+- `.gitignore`: evita que Git registre archivos temporales, cachés y resultados
+  de compilación.
+- `_config.yml`: configuración central de Jekyll, metadatos, URL, extensiones,
+  valores predeterminados, Disqus y Google Analytics.
+- `404.html`: página mostrada cuando una dirección no existe.
+- `atom.xml`: plantilla del feed Atom para las publicaciones del blog.
+- `category.html`: página que agrupa las publicaciones por categorías.
+- `CNAME`: asocia GitHub Pages con el dominio personalizado. Es opcional en
+  copias que utilicen únicamente un dominio `github.io`.
+- `index.md`: contenido y estructura de la página principal.
+- `LICENSE.md`: licencia MIT original del tema.
+- `README.md`: documentación de uso y mantenimiento del repositorio.
+- `robots.txt`: instrucciones básicas para buscadores y referencia al sitemap.
+- `tag_generator.py`: genera las páginas de etiquetas a partir de las entradas
+  almacenadas en `_posts/`.
+
+### Componentes reutilizables: `_includes/`
+
+- `_includes/archive.html`: crea el listado de etiquetas utilizado como
+  archivo del blog.
+- `_includes/collecttags.html`: recopila y ordena las etiquetas presentes en
+  las publicaciones.
+- `_includes/disqus_comments.html`: inserta el sistema de comentarios Disqus
+  cuando está configurado.
+- `_includes/google_analytics.html`: carga Google Analytics 4 únicamente si
+  existe un identificador en `_config.yml`.
+- `_includes/head.html`: construye la sección `<head>` con metadatos, estilos,
+  favicon, feed, MathJax, Font Awesome y SEO.
+- `_includes/icon_link.html`: componente auxiliar para crear enlaces formados
+  por un icono y texto.
+- `_includes/mathjax.html`: configura y carga MathJax para mostrar fórmulas.
+- `_includes/sidebar.html`: define el retrato, la identidad, el contacto y la
+  navegación lateral.
+- `_includes/social_links.html`: genera enlaces sociales cuando existe la
+  configuración opcional `site.data.social`.
+
+### Plantillas de página: `_layouts/`
+
+- `_layouts/default.html`: estructura HTML común, tema activo, cabecera y barra
+  lateral.
+- `_layouts/page.html`: plantilla para páginas convencionales.
+- `_layouts/post.html`: plantilla para entradas, con fecha, etiquetas,
+  publicaciones relacionadas y comentarios.
+- `_layouts/tagpage.html`: plantilla de las páginas que reúnen publicaciones
+  con una misma etiqueta.
+
+### Hojas de estilo: `public/css/`
+
+- `public/css/custom.css`: reglas específicas de la página principal, enlaces
+  de artículos y controles de resúmenes.
+- `public/css/hyde.css`: layout general, tipografía Cooper Hewitt, barra
+  lateral, temas de color y variantes responsive.
+- `public/css/poole.css`: estilos base para texto, listas, tablas, código,
+  páginas, entradas y paginación.
+- `public/css/syntax.css`: colores utilizados para el resaltado de código.
+
+### Recurso técnico
+
+- `public/favicon.ico`: icono principal mostrado por el navegador.
