@@ -12,20 +12,20 @@
   .sidebar .sidebar-photo {
     display: block;
     width: 100%;
-    height: min(55vh, 520px);
-    max-height: calc(100vh - 280px); /* Reserves room for the bio and navigation. */
-    object-fit: cover;
+    height: auto;
+    max-height: none;
+    object-fit: contain; /* Keeps the complete portrait visible in stacked layouts. */
+    object-position: center top;
     transform: translateY(0%); /* Overrides the base theme's upward offset. */
   }
 
-  @media (max-width: 520px) {
+  /* Cap the portrait between phone and desktop layouts without cropping it. */
+  @media (min-width: 521px) and (max-width: 64.999em) {
     .sidebar .sidebar-photo {
-      width: 100%;
-      height: auto; /* Shows the complete portrait on narrow screens. */
-      max-height: none; /* Removes the desktop height cap. */
-      object-fit: contain; /* Prevents cropping. */
-      object-position: center top;
-      display: block;
+      width: auto;
+      max-width: 100%;
+      height: min(55vh, 520px);
+      margin: 0 auto;
     }
   }
 
@@ -47,15 +47,39 @@
     margin: 0 auto 12px;
   }
 
-  /* Treat short desktop viewports like mobile to avoid cropping the portrait. */
-  @media (max-height: 600px) {
+  /* Keep the portrait and bio in separate rows on desktop. */
+  @media (min-width: 65em) {
+    .sidebar {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .sidebar-inner {
+      display: grid;
+      grid-template-rows: minmax(0, 1fr) auto;
+      height: 100%;
+    }
+
     .sidebar .sidebar-photo {
       width: 100%;
-      height: auto;
-      max-height: none;
+      height: min(55vh, 520px);
+      max-height: 100%;
+      margin: 0;
+      object-fit: cover;
+    }
+
+    .sidebar-about {
+      position: static;
+      width: 100%;
+      box-sizing: border-box;
+      align-self: end;
+    }
+  }
+
+  /* Preserve the complete portrait when desktop height is limited. */
+  @media (min-width: 65em) and (max-height: 600px) {
+    .sidebar .sidebar-photo {
       object-fit: contain;
-      object-position: center top;
-      display: block;
     }
   }
 </style>
