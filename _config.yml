@@ -12,7 +12,7 @@ author:
 paginate:         10
 paginate_path:    "/blog/page:num/"
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-commonmark-ghpages
@@ -22,11 +22,10 @@ plugins:
 disqus:
   shortname: cnavarroserrano
 
-# Optional Google Analytics 4 measurement ID (for example, G-XXXXXXXXXX).
-# Leave blank to disable analytics.
+# Optional Google Analytics 4 measurement ID. Leave blank to disable analytics.
 google_analytics: ''
 
-# Default YAML values (more information on Jekyll's site)
+# Default values applied by Jekyll.
 defaults:
   -
     scope:
@@ -35,12 +34,11 @@ defaults:
     values:
       layout: "post"
       classes: "wide"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: true
+      social-share: true
   -
     scope:
-      path: "" # any file that's not a post will be a "page" layout by default
+      path: ""
     values:
       layout: "page"
       classes: "wide"
-      

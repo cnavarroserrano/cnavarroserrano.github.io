@@ -1,116 +1,94 @@
 <style>
-  /* Make the sidebar edge-to-edge and clip to rounded corners (if any) */
-  .sidebar{
-    padding: 0 !important;       /* theme likely adds padding */
-    overflow: hidden;            /* so the image fills + respects border-radius */
+  /* Remove the theme padding so the portrait spans the full sidebar width. */
+  .sidebar {
+    padding: 0 !important; /* Overrides the padding defined by the Hyde theme. */
+    overflow: hidden; /* Clips the portrait to any sidebar border radius. */
   }
 
-  /* Keep the inner wrapper clean */
-  .sidebar-inner{
+  .sidebar-inner {
     padding: 0 !important;
   }
 
- /* ensure the rule wins */
-  .sidebar .sidebar-photo{
-    display:block;
-    width:100%;
+  .sidebar .sidebar-photo {
+    display: block;
+    width: 100%;
     height: min(55vh, 520px);
-    max-height: calc(100vh - 280px);  /* ← add this */
+    max-height: calc(100vh - 280px); /* Reserves room for the bio and navigation. */
     object-fit: cover;
-    transform: translateY(0%);   /* positive = push image down */
+    transform: translateY(0%); /* Overrides the base theme's upward offset. */
   }
-  @media (max-width: 520px){
-    .sidebar .sidebar-photo{
+
+  @media (max-width: 520px) {
+    .sidebar .sidebar-photo {
       width: 100%;
-      height: auto;          /* show full image height */
-      max-height: none;      /* cancel the desktop cap */
-      object-fit: contain;   /* no cropping */
-      object-position: center top; /* harmless here; keeps head visible */
+      height: auto; /* Shows the complete portrait on narrow screens. */
+      max-height: none; /* Removes the desktop height cap. */
+      object-fit: contain; /* Prevents cropping. */
+      object-position: center top;
       display: block;
     }
   }
-  /* create a guaranteed gap below the image on desktop */
-  .sidebar-about{
-    display: flow-root;            /* NEW: prevents the h1 margin from collapsing over the image */
-    padding: 14px 20px 0 !important;  /* keep whatever you already set */
-    border-top: 1px solid transparent; /* ok to keep; harmless */
+
+  .sidebar-about {
+    display: flow-root; /* Prevents the heading margin from collapsing upward. */
+    padding: 14px 20px 0 !important;
+    border-top: 1px solid transparent; /* Preserves the gap below the portrait. */
   }
 
-  /* optional but helpful: prevent the heading from pulling upward */
-  .sidebar-about h1{
+  .sidebar-about h1 {
     margin-top: 0 !important;
   }
 
   .sidebar-logo {
-  display: block;
-  width: 80%;
-  max-width: 220px;
-  height: auto;
-  margin: 0 auto 12px;
-}
-
-  /* Also treat SHORT viewports in PC like mobile to avoid head crop when zoomed */
-  @media (max-height: 600px){
-  .sidebar .sidebar-photo{
-    width: 100%;
-    height: auto;
-    max-height: none;
-    object-fit: contain;
-    object-position: center top;
     display: block;
+    width: 80%;
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto 12px;
   }
-}
 
+  /* Treat short desktop viewports like mobile to avoid cropping the portrait. */
+  @media (max-height: 600px) {
+    .sidebar .sidebar-photo {
+      width: 100%;
+      height: auto;
+      max-height: none;
+      object-fit: contain;
+      object-position: center top;
+      display: block;
+    }
+  }
 </style>
-
 
 <div class="sidebar">
   <div class="sidebar-inner">
-    <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="Foto">
-  <!-- <div class="container sidebar-sticky"> This line fixes the sidebar, with the disadvantage of it not fitting some screen proportions -->
-  <div class="sidebar-about">
-        <!-- <img src="/photos/foto.jpg" alt="foto" class="inline"/>  --> <!---  Vertical pic, original  --->
-        <!-- <img src="/photos/foto.jpg" alt="foto" class="inline"/> -->  <!---  Vertical pic, black and white, square  --->
-        <!-- <img src="/photos/foto.jpg" alt="foto" class="inline"/-->  <!---  Vertical pic, black and white  --->
-        <!-- <img src="/photos/foto.jpg" alt="foto" class="inline"/> --> <!---  horizontal pic, close face  --->
-        <!-- <a href="{{ site.baseurl }}"> -->
-        <!-- <a href="{{ '/' | relative_url }}"> -->
-        
-       <!-- Add page title -->
-       <!--<h1> -->
-      <!-- <img
+    <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="Portrait of Cristian Navarro">
+    <div class="sidebar-about">
+      <!-- Alternative logo retained for possible future use:
+      <img
         src="{{ '/photos/Logo-Test.png' | relative_url }}"
         class="sidebar-logo"
-        alt="Logo trial"
-      > -->
-        <a href="https://cnavarroserrano.github.io/" style="color :white;">
-         <h1 style="color :white; font-size: 2.2rem; margin-bottom: 1px;"> CRISTIAN NAVARRO </h1>
-         </a>
-      <!--</h1> -->
-      <!-- Add page subtitle -->
-      <p style="font-size: 0.9rem" class="lead"> 
-        PhD in Economics, <a href="https://cemfi.es/" target="_blank">CEMFI</a> 
+        alt="Alternative logo"
+      >
+      -->
+      <a href="https://cnavarroserrano.github.io/" style="color: white;">
+        <h1 style="color: white; font-size: 2.2rem; margin-bottom: 1px;">CRISTIAN NAVARRO</h1>
+      </a>
+      <p class="lead" style="font-size: 0.9rem">
+        PhD in Economics, <a href="https://cemfi.es/" target="_blank">CEMFI</a>
         <br>
         <a href="mailto:cnavarroserrano@gmail.com">cnavarroserrano@gmail.com</a>
       </p>
-    
-    <body>
-  
-      
-    <!-- Index -->
-    <span style="display:block; height:0.5em;"></span>  
-    <a href="#welcome">About</a>
-    <br>
-    <a href="#working-papers">Research</a>
-    <br>
-    <a href="#teaching">Teaching</a>
-    <br>
-    <br>
 
-     </body>
-      
+      <!-- Section navigation -->
+      <span style="display: block; height: 0.5em;"></span>
+      <a href="#welcome">About</a>
+      <br>
+      <a href="#working-papers">Research</a>
+      <br>
+      <a href="#teaching">Teaching</a>
+      <br>
+      <br>
     </div>
-    
   </div>
-    
 </div>

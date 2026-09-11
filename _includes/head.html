@@ -1,33 +1,33 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <!-- Enable responsiveness on mobile devices-->
+  <!-- Metadata and mobile viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  
-  <!-- include collecttags -->
+
+  <!-- Blog tag infrastructure -->
   {% if site.tags != "" %}
-  {% include collecttags.html %}
+    {% include collecttags.html %}
   {% endif %}
 
-<title>
-  {% assign tl = site.tagline | to_s | strip %}
-  {% if page.url == "/" %}
-    {{ site.title }}{% if tl != "" %} | {{ tl }}{% endif %}
-  {% else %}
-    {{ page.title | default: site.title }}
-  {% endif %}
-</title>
+  <title>
+    {% assign tl = site.tagline | to_s | strip %}
+    {% if page.url == "/" %}
+      {{ site.title }}{% if tl != "" %} | {{ tl }}{% endif %}
+    {% else %}
+      {{ page.title | default: site.title }}
+    {% endif %}
+  </title>
 
-  <!-- CSS -->
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/poole.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/syntax.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/hyde.css">
   <link rel="stylesheet" href="{{ '/public/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   
-  <!-- Icons -->
+  <!-- Browser icon -->
   <link rel="shortcut icon" href="{{ '/' | relative_url }}public/favicon.ico">
 
-  <!-- RSS -->
+  <!-- Atom feed -->
   <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ '/atom.xml' | relative_url }}">
 
   <!-- MathJax -->
@@ -38,7 +38,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       crossorigin="anonymous" referrerpolicy="no-referrer">
 
-  <!-- seo -->
+  <!-- SEO -->
   {% seo %}
 
 </head>

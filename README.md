@@ -1,96 +1,139 @@
-# Cristian Navarro — personal website
+# Web académica de Cristian Navarro
 
-Personal academic website published with Jekyll on GitHub Pages at
-<https://cristian-navarro.com>.
+Código fuente de <https://cristian-navarro.com>, una web académica construida
+con Jekyll y publicada mediante GitHub Pages.
 
-## Local development
+## Publicación
 
-Requirements: Ruby, RubyGems and Bundler. The `Gemfile` pins the GitHub Pages
-bundle used by the hosted site and declares the additional archive plugin.
-
-```sh
-bundle install
-bundle exec jekyll serve --livereload
-```
-
-Open <http://localhost:4000>. A production build is generated with:
+El flujo de trabajo utiliza GitHub Pages como entorno de construcción, por lo
+que no requiere una instalación local de Ruby, Bundler o Jekyll:
 
 ```sh
-JEKYLL_ENV=production bundle exec jekyll build
+git add -A
+git commit -m "Descripción del cambio"
+git push origin main
 ```
 
-In PowerShell, set `$env:JEKYLL_ENV = "production"` before the build command.
-Generated files are written to `_site/` and must not be committed.
+Cada actualización de `main` inicia una nueva publicación. El estado del
+proceso puede consultarse en la pestaña **Actions** del repositorio. Una vez
+terminado, conviene recargar la web sin caché para comprobar la versión nueva.
 
-## Where to make common changes
+La carpeta generada `_site/`, las credenciales y los tokens privados no deben
+incluirse en el repositorio.
 
-- `index.md`: visible home-page content, research, abstracts, teaching and links
-  to papers and the CV.
-- `_includes/sidebar.html`: sidebar photo, name, contact details and navigation.
-  This component is sensitive to viewport height and mobile behaviour; test it
-  on desktop and mobile after every change.
-- `_layouts/default.html`: page shell and active theme class on `<body>`. The
-  current sidebar colour is selected with `theme-base-urvred`.
-- `public/css/hyde.css`: layout, sidebar rules, typography and available theme
-  palettes. Change or add a sidebar palette here, then select its class in
-  `_layouts/default.html`.
-- `public/css/poole.css`: baseline HTML styles and the main content container.
-- `public/css/custom.css`: paper links and abstract-toggle controls.
-- `_includes/head.html`: metadata, stylesheets, favicon, Font Awesome, feed,
-  MathJax and SEO.
-- `_config.yml`: site title, description, canonical URL, plugins, comments and
-  optional analytics.
-- `photos/`: retained photo catalogue. The sidebar currently uses
-  `photos/portrait_main_adjustedside.jpg`.
-- `papers/`: PDFs linked from the research sections.
-- `resume/cv_cnavarro.pdf`: CV linked from the introduction.
-- `public/favicon.ico`: browser favicon.
-- `CNAME`: custom domain used by GitHub Pages.
+## Crear una web a partir de este repositorio
 
-## Content updates
+El repositorio puede bifurcarse en GitHub o clonarse directamente:
 
-Keep public PDF filenames stable when possible so existing links continue to
-work. If a filename changes, update its reference in `index.md` in the same
-commit. Each abstract button and panel in `index.md` must share a unique ID.
+```sh
+git clone https://github.com/cnavarroserrano/cnavarroserrano.github.io.git
+```
 
-The photo catalogue intentionally contains alternatives that are not currently
-referenced. Do not treat an unreferenced file under `photos/` as disposable
-without checking whether it is a retained portrait or branding option.
+Para adaptar una copia:
 
-## Latent blog infrastructure
+1. Sustituir el título, la descripción, la URL y los datos del autor en
+   `_config.yml`.
+2. Actualizar la fotografía, el nombre, el correo y la navegación en
+   `_includes/sidebar.html`.
+3. Reemplazar el contenido académico en `index.md` y los archivos de
+   `papers/`, `photos/` y `resume/`.
+4. Eliminar `CNAME` si no se utiliza un dominio propio, o sustituir su
+   contenido por el dominio correspondiente.
+5. Activar GitHub Pages desde **Settings → Pages**, publicando la rama `main`
+   desde la raíz del repositorio.
 
-The repository keeps its original Jekyll blog support even though there are no
-posts at present:
+Para una web de usuario en GitHub Pages, el repositorio suele llamarse
+`usuario.github.io`.
 
-- `_layouts/post.html`, `_layouts/page.html` and `_layouts/tagpage.html` define
-  post, page and tag rendering.
-- `_includes/archive.html`, `_includes/collecttags.html`,
-  `_includes/disqus_comments.html` and `_includes/social_links.html` provide
-  reusable blog components.
-- `atom.xml` and `category.html` provide feed and category routes.
-- `tag_generator.py` generates tag pages from Markdown files in `_posts/`.
-- `public/css/syntax.css` contains code-highlighting styles.
+## Estructura principal
 
-To add posts, create `_posts/YYYY-MM-DD-slug.md` files with Jekyll front matter.
-Run `python tag_generator.py` after changing tags if tag pages are wanted. The
-Disqus shortname is configured under `disqus` in `_config.yml`.
+- `index.md`: página principal, publicaciones, proyectos, resúmenes, docencia
+  y enlaces al CV.
+- `_config.yml`: configuración general de Jekyll, URL, extensiones,
+  comentarios y analítica.
+- `_includes/sidebar.html`: retrato, identidad, contacto y navegación.
+- `_includes/head.html`: metadatos, favicon, hojas de estilo, MathJax, feed y
+  SEO.
+- `_layouts/`: estructuras HTML reutilizadas por páginas, entradas y
+  etiquetas.
+- `public/css/hyde.css`: layout, tipografía, barra lateral y temas de color.
+- `public/css/poole.css`: estilos base y componentes del tema.
+- `public/css/custom.css`: estilos específicos de la página principal.
+- `papers/`, `photos/` y `resume/`: documentos e imágenes públicas.
+- `CNAME`, `robots.txt` y `atom.xml`: dominio, indexación y feed.
 
-MathJax remains available site-wide for academic content. Google Analytics is
-disabled by default; set `google_analytics` in `_config.yml` to a GA4
-measurement ID to enable it. Do not commit credentials or private tokens.
+## Actualizaciones habituales
 
-## Deployment and checks
+- **Cambiar el retrato:** sustituir
+  `photos/portrait_main_adjustedside.jpg` conservando el nombre, o modificar
+  el atributo `src` correspondiente en `_includes/sidebar.html`.
+- **Actualizar el CV:** sustituir `resume/cv_cnavarro.pdf`; si cambia el
+  nombre del archivo, actualizar también su enlace en `index.md`.
+- **Añadir o actualizar un artículo:** guardar el PDF en `papers/` y editar
+  en `index.md` el título, los autores, el enlace y el resumen.
+- **Editar la presentación, los proyectos o la docencia:** modificar la sección
+  correspondiente de `index.md`.
+- **Cambiar los datos de contacto o la navegación:** editar
+  `_includes/sidebar.html`.
+- **Cambiar colores o estilos:** utilizar `public/css/custom.css` para ajustes
+  específicos y `public/css/hyde.css` para el tema y el layout general.
+- **Cambiar el favicon:** sustituir `public/favicon.ico`.
+- **Cambiar el dominio:** actualizar `url` en `_config.yml` y editar o
+  eliminar `CNAME`, según se utilice o no un dominio propio.
 
-Pushes to `main` are built by GitHub Pages. The custom domain is declared in
-`CNAME`; `robots.txt` points crawlers to the sitemap
-generated by `jekyll-sitemap`.
+## Actualizar contenido
 
-Before publishing, run a production build and check the home page, 404 page,
-feed/category routes, local PDF links, browser-console errors, and the sidebar
-on desktop and mobile (navigation, scrolling and reload).
+Conviene mantener estables los nombres públicos de los PDF para no romper
+enlaces existentes. Si cambia un nombre, su referencia en `index.md` debe
+actualizarse en el mismo commit.
 
-## Credits and licence
+Cada control de resumen en `index.md` contiene:
 
-The site is based on the MIT-licensed [Hyde](https://github.com/poole/hyde)
-theme. Its licence is preserved in `LICENSE.md`. Cooper Hewitt is credited in
-the page footer.
+- un enlace con la clase `abs-toggle`;
+- un panel con un atributo `id` único;
+- una referencia a ese mismo identificador en el atributo `onclick`.
+
+El catálogo de `photos/` incluye alternativas conservadas para cambios de
+diseño futuros. La ausencia de una referencia activa no implica necesariamente
+que una imagen deba eliminarse.
+
+## Infraestructura opcional de blog
+
+El repositorio conserva soporte para publicaciones aunque actualmente no
+contenga entradas:
+
+- `_layouts/post.html`, `_layouts/page.html` y `_layouts/tagpage.html`;
+- archivos de archivo, etiquetas, comentarios y enlaces sociales en
+  `_includes/`;
+- rutas de categorías y feed mediante `category.html` y `atom.xml`;
+- resaltado de código en `public/css/syntax.css`;
+- generación de páginas de etiquetas mediante `tag_generator.py`.
+
+Las entradas se guardan como `_posts/AAAA-MM-DD-identificador.md` con cabecera
+YAML de Jekyll. Después de modificar sus etiquetas, las páginas correspondientes
+pueden regenerarse con:
+
+```sh
+python tag_generator.py
+```
+
+MathJax está disponible para contenido matemático. Google Analytics permanece
+desactivado mientras `google_analytics` esté vacío en `_config.yml`. Disqus se
+configura mediante `disqus.shortname` en el mismo archivo.
+
+## Comprobaciones recomendadas
+
+Después de publicar, revisar:
+
+- la página principal y la página 404;
+- los enlaces al CV, los artículos y las imágenes;
+- la apertura y el cierre de los resúmenes;
+- la navegación y el desplazamiento de la barra lateral;
+- el resultado en pantallas de escritorio y móviles;
+- las categorías, etiquetas y el feed si se utiliza el blog.
+
+## Créditos y licencia
+
+La web está basada en [Hyde](https://github.com/poole/hyde), distribuido con
+licencia MIT. La licencia original se conserva en `LICENSE.md`. La tipografía
+Cooper Hewitt se acredita en el pie de la página.

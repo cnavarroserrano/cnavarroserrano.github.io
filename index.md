@@ -4,69 +4,24 @@ title: Home
 text-align: justify
 ---
 
-<!---  Define the .indented style to call it later  --->
-<style>
-.indented {
-  margin-left: 2.5em;
-}
-</style>
-
-<!---  Picture on the top of the website  --->
-<p align="center">
-   <!--- <img width="300" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic  --->
-   <!--- <img width="400" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic, close face  --->
-   <!--- <img width="300" height=auto src="/photos/picture.jpg"> ---> <!---  horizontal pic, black and white  ---> 
-   <!--- <img width="200" height=auto src="/photos/picture.jpg">  ---> <!---  vertical pic  --->
-</p>
-
-<!---  Blank line  --->
-<!--- <br/> --->
-
+<!-- Introduction -->
 <h3 id="welcome">Welcome!</h3>
 <br/>
 <dl>
   <dd class="indented">
     I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
-    My research interests lie in political economy, economic history, and development economics.     
+    My research interests lie in political economy, economic history, and development economics.
     You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
-    <!-- <span style="display:block; margin-top:0.35em;">I am on the <strong>2025-2026 Job Market</strong>.</span> -->
-    <!-- I just completed my PhD in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. -->
   </dd>
 </dl>
 
-
-<!---  Blank line  --->
-<!-- <br/>
-<h3 id="jmp">Job Market Paper</h3>
-<br/>
-
-<dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Autocrats Remake the State: Evidence from Francoist Spain</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></i></p>
-  <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file" aria-hidden="true"></i><span>Draft</span></a>
-  <span style="color: var(--bs-link-color, #3D7A66);">Draft coming soon!</span>
-  <br/>
-  <p>
-  In autocracies, personnel decisions often prioritize ideological alignment over merit.
-  We investigate how such ideology-based personnel selection shapes the quality of the public workforce and its implications for state capacity.
-  We examine this in the context of a large-scale political purge and reorganization of primary school teachers carried out by the Francoist dictatorship following the Spanish Civil War (1936-1939).
-  We construct a novel dataset linking newly digitized purge archives and administrative records that track teacher careers, and document that more competent teachers were disproportionately dismissed and that average experience declined by about 2.6 years (14.4%).
-  Local shortages created by the purge were partly offset by regime efforts to reassign teachers across municipalities, yet coordination frictions in this process left persistent staffing deficits that spread to areas less affected by the purge.
-  Our findings show how ideology-based personnel reforms can erode public workforce expertise and weaken the state's capacity to deliver essential services, providing a mechanism through which autocratic consolidation entails sizable capacity costs.
-  </p>
-  </dd>
-</dl> -->
-
-
-<!---  Blank line  --->
+<!-- Working papers -->
 <br/>
 <h3 id="working-papers">Working Papers</h3>
 <br/>
 
+<!-- Each abstract link toggles the panel with the matching id and updates its sign. -->
 <dl>
-
-  <!-- Paper 1 -->
   <dt class="indented">
     <strong>Autocrats Remake the State: Evidence from Francoist Spain</strong>
     <em style="color:#ac4142;"> (Job Market Paper)</em>
@@ -96,9 +51,8 @@ text-align: justify
   </div>
   </dd>
 
-  <div style="height:22px;"></div>
+  <div class="paper-spacer"></div>
 
-  <!-- Paper 2 -->
   <dt class="indented">
     <strong>Seeds of prejudice: the impact of British colonization on attitudes towards sexual minorities</strong>
   </dt>
@@ -130,9 +84,8 @@ text-align: justify
   </div>
   </dd>
   
-  <div style="height:22px;"></div>
+  <div class="paper-spacer"></div>
 
-  <!-- Paper 3 -->
   <dt class="indented">
     <strong>Personalized Employment Support for the Homeless: Evidence from a Randomized Evaluation</strong>
   </dt>
@@ -164,16 +117,18 @@ text-align: justify
 
 </dl>
 
-
-<!---  Blank line  --->
 <br/>
 
+<!-- Work in progress -->
 <h3 id="working-in-progress">Work in Progress</h3>
 <br/>
 <dl>
 
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Ballot Measures, Political Advertising, and Contribution Caps</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a></i></p>
+  <dt class="indented">
+    <strong>Ballot Measures, Political Advertising, and Contribution Caps</strong>
+  </dt>
+  <dd class="indented">
+    <p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a></i></p>
   
   <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
@@ -199,16 +154,15 @@ text-align: justify
   </div>
   </dd>
 
-<div style="height:22px;"></div>
+  <div class="paper-spacer"></div>
 
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a></i></p>
+  <dt class="indented">
+    <strong>Why Inform? Ideology, Interest, and Animosity in Times of the Inquisition</strong>
+  </dt>
+  <dd class="indented">
+    <p><i>with <a href="https://asanchezleache.github.io" target="_blank">Álvaro Sánchez Leache</a></i></p>
   
   <p class="paper-row" style="margin:1px 0 0;">
-    <!-- <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
-    </a>
-    <span>|</span> -->
     <a href="#" class="abs-toggle"
       onclick="const el=document.getElementById('abstract_inquisition');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
       <span class="sign">+</span> Abstract
@@ -226,57 +180,43 @@ text-align: justify
   </div>
   </dd>
 
-<div style="height:22px;"></div>
+  <div class="paper-spacer"></div>
 
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</p></strong></dt>
-  <dd class="indented"><p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
-  
-  <!-- <p class="paper-row" style="margin:1px 0 0; color: var(--bs-link-color);">
-    <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
-    </a>
-    <span>|</span>
-    <a href="#" class="abs-toggle"
-      onclick="const el=document.getElementById('abstract_eta');const open=el.hidden;el.hidden=!open;this.querySelector('.sign').textContent=open?'–':'+';return false;">
-      <span class="sign">+</span> Abstract
-    </a>
-  </p> -->
-
-  <!-- <div id="abstract_eta" hidden>
-    <p>
-    (...).
-    </p> 
-  </div> -->
+  <dt class="indented">
+    <strong>The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</strong>
+  </dt>
+  <dd class="indented">
+    <p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
   </dd>
 
 </dl>
 
-<!---  Blank line  --->
-<!-- <br/>
+<!-- References section retained for possible future use.
+<br/>
 <h3 id="references">References</h3>
 <br/>
-  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist , Bank of Spain.</p></dt>
-  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI.</p></dt>
-  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI.</p></dt>
-  <dt class="indented"><p class="indented" style="margin: 0;"><strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University.</p></dt>
-</dd> -->
+<dl>
+  <dt class="indented"><strong><a href="https://sites.google.com/site/carlossanzecon/home" target="_blank">Carlos Sanz</a></strong> Senior Research Economist, Bank of Spain.</dt>
+  <dt class="indented"><strong><a href="https://sites.google.com/view/samuel-bentolila-home" target="_blank">Samuel Bentolila</a></strong> Professor, CEMFI.</dt>
+  <dt class="indented"><strong><a href="https://tomzohar.com/" target="_blank">Tom Zohar</a></strong> Assistant Professor, CEMFI.</dt>
+  <dt class="indented"><strong><a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></strong> Associate Professor, Uppsala University.</dt>
+</dl>
+-->
 
-
-
-<!---  Blank line  --->
 <br/>
 
+<!-- Teaching -->
 <h3 id="teaching">Teaching</h3>
 <br/>
 <dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Uncertainty and Information (Microeconomics II)</p></strong></dt>
+  <dt class="indented"><strong>Uncertainty and Information (Microeconomics II)</strong></dt>
   <dd class="indented">
     <p>
     CEMFI graduate course. <br>
     Teaching assistant for Professor Guillermo Caruana. Winter 2024, Winter 2025. <br>
     </p>
   </dd>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;">Markets and Organizations</p></strong></dt>
+  <dt class="indented"><strong>Markets and Organizations</strong></dt>
   <dd class="indented">
     <p>
     CEMFI graduate course. <br>
@@ -285,13 +225,15 @@ text-align: justify
   </dd>
 </dl>
 
-<!---  Blank line  --->
 <br/>
 
+<!-- Pre-PhD publications -->
 <h3 id="pre-phd-pubs">Pre-PhD Publications</h3>
 <br/>
 <dl>
-  <dt class="indented"><strong><p class="indented" style="margin: 0;"><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" style="color:#000 !important; text-decoration: none;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></p></strong></dt>
+  <dt class="indented">
+    <strong><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" style="color:#000 !important; text-decoration: none;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></strong>
+  </dt>
   <dd class="indented">
     <p>
     In <i>Natural Resources and Divergence: A Comparison of Andean and Nordic Trajectories</i>, 2021.
@@ -302,18 +244,4 @@ text-align: justify
 
 ---
 <sup><sub>Built based on <a href="https://github.com/poole/hyde" target="_blank">Hyde Jekyll theme</a>. Cooper Hewitt <a href="https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/" target="_blank">typeface</a> by Chester Jenkins.<sub><sup>
-
-<!---  This is for the Abstract button  --->
-<script>
-function toggle(id) {
-  const el = document.getElementById(id);
-  if (el.style.display === "none") {
-    el.style.display = "block";
-  } else {
-    el.style.display = "none";
-  }
-}
-</script>
-
-
 

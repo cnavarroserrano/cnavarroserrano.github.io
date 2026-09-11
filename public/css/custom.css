@@ -1,20 +1,65 @@
-/* Asegura FA solo en iconos, no en el resto de texto */
-.fa-solid, .fa-regular{ font-family:"Font Awesome 6 Free" !important; }
-.fa-solid{ font-weight:900 !important; }
-.fa-regular{ font-weight:400 !important; }
-.fa-brands{ font-family:"Font Awesome 6 Brands" !important; font-weight:400 !important; }
+/* Home page spacing */
+.indented {
+  margin-left: 2.5em;
+}
 
-/* Draft link: icon + text inline */
-a.paper{ display:inline-flex; align-items:center; gap:.5ch; line-height:1; margin:0; }
+.paper-spacer {
+  height: 22px;
+}
 
-/* One-row container for Draft | Abstract */
-.paper-row{ display:flex; align-items:baseline; gap:.5ch; }
+/* Keep Font Awesome families scoped to icon classes. */
+.fa-solid,
+.fa-regular {
+  font-family: "Font Awesome 6 Free" !important;
+}
 
-/* Abstract toggle (+ / –) */
-.abs-toggle{ display:inline-flex; align-items:center; gap:.4ch; text-decoration:none; }
-.abs-toggle:hover{ text-decoration:none; }
-.abs-toggle .sign{
-  display:inline-grid; place-items:center; width:1em; height:1em;
-  border:1px solid currentColor; border-radius:.2em; line-height:1; font-weight:600;
+.fa-solid {
+  font-weight: 900 !important;
+}
+
+.fa-regular {
+  font-weight: 400 !important;
+}
+
+.fa-brands {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* Paper links and abstract controls */
+a.paper {
+  display: inline-flex;
+  align-items: center;
+  gap: .5ch;
+  line-height: 1;
+  margin: 0;
+}
+
+.paper-row {
+  display: flex;
+  align-items: baseline;
+  gap: .5ch;
+}
+
+.abs-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .4ch;
+  text-decoration: none;
+}
+
+.abs-toggle:hover {
+  text-decoration: none;
+}
+
+.abs-toggle .sign {
+  display: inline-grid;
+  place-items: center;
+  width: 1em;
+  height: 1em;
+  border: 1px solid currentColor;
+  border-radius: .2em;
+  line-height: 1;
+  font-weight: 600;
 }
 
