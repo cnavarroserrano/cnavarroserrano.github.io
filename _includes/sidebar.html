@@ -49,7 +49,12 @@
 
   /* Keep the portrait and bio in separate rows on desktop. */
   @media (min-width: 65em) {
+    :root {
+      --sidebar-width: clamp(14rem, calc(100vh - 300px), 16rem);
+    }
+
     .sidebar {
+      width: var(--sidebar-width);
       overflow-x: hidden;
       overflow-y: auto;
     }
@@ -92,6 +97,10 @@
 
     .sidebar-about > br:last-child {
       display: none;
+    }
+
+    .content {
+      margin-left: calc(var(--sidebar-width) + 6rem);
     }
   }
 
