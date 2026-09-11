@@ -251,7 +251,8 @@ text-align: justify
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     align-items: center;
     gap: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: -3rem;
     padding-top: 1rem;
     font-size: 0.75rem;
     line-height: 1.4;
@@ -259,7 +260,7 @@ text-align: justify
 
   .site-footer-logo {
     display: block;
-    width: min(100%, 240px);
+    width: min(100%, 220px);
   }
 
   .site-footer-logo img {
