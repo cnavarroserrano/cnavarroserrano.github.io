@@ -47,6 +47,54 @@
     margin: 0 auto 12px;
   }
 
+  /* Compact icon row between contact details and section links. */
+  .sidebar-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-actions a,
+  .sidebar-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font: inherit;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  .sidebar-actions a:focus-visible,
+  .sidebar-actions button:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+
+  .sidebar-actions img {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  @media (max-width: 520px) {
+    .sidebar .sidebar-photo {
+      height: min(52vh, 520px);
+      object-fit: cover;
+    }
+
+    .sidebar-about {
+      padding-bottom: 18px !important;
+    }
+  }
+
   /* Keep the portrait and bio in separate rows on desktop. */
   @media (min-width: 65em) {
     :root {
@@ -100,6 +148,10 @@
       display: none;
     }
 
+    .sidebar-actions {
+      justify-content: flex-end;
+    }
+
     .content {
       margin-left: calc(var(--sidebar-width) + 6rem);
     }
@@ -127,6 +179,18 @@
         <a href="mailto:cnavarroserrano@gmail.com">cnavarroserrano@gmail.com</a>
       </p>
 
+      <div class="sidebar-actions" aria-label="Academic profiles and display settings">
+        <a href="https://scholar.google.com/citations?user=0TqsQNMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar">
+          <img src="{{ '/icons/google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
+        </a>
+        <a href="https://orcid.org/0009-0004-2707-5667" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID">
+          <i class="fa-brands fa-orcid" aria-hidden="true"></i>
+        </a>
+        <button id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+
       <!-- Section navigation -->
       <span style="display: block; height: 0.5em;"></span>
       <a href="#welcome">About</a>
@@ -134,8 +198,6 @@
       <a href="#working-papers">Research</a>
       <br>
       <a href="#teaching">Teaching</a>
-      <br>
-      <br>
     </div>
   </div>
 </div>

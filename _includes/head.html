@@ -19,13 +19,23 @@
   </title>
 
   <!-- Stylesheets -->
+  <script>
+    try {
+      if (localStorage.getItem('site-theme') === 'dark') {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    } catch (error) {
+      // The page remains in light mode if browser storage is unavailable.
+    }
+  </script>
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/poole.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/syntax.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/hyde.css">
   <link rel="stylesheet" href="{{ '/public/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script defer src="{{ '/public/js/theme-toggle.js' | relative_url }}"></script>
   
   <!-- Browser icon -->
-  <link rel="shortcut icon" href="{{ '/' | relative_url }}public/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ '/public/favicon-urv.png' | relative_url }}">
 
   <!-- Atom feed -->
   <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ '/atom.xml' | relative_url }}">

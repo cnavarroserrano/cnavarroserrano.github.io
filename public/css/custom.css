@@ -7,6 +7,12 @@
   height: 22px;
 }
 
+/* Keep home section headings separated without a full blank line. */
+.home-section-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 /* Keep Font Awesome families scoped to icon classes. */
 .fa-solid,
 .fa-regular {
@@ -61,5 +67,50 @@ a.paper {
   border-radius: .2em;
   line-height: 1;
   font-weight: 600;
+}
+
+/* Match coauthors without profile links to linked names in both themes. */
+.coauthor-unlinked {
+  color: #90292a;
+}
+
+/* The sidebar stays burgundy; dark mode changes the reading surface. */
+html[data-theme="dark"] body {
+  background-color: #191b20;
+  color: #d9dde2;
+}
+
+html[data-theme="dark"] .content h1,
+html[data-theme="dark"] .content h2,
+html[data-theme="dark"] .content h3,
+html[data-theme="dark"] .content h4,
+html[data-theme="dark"] .content h5,
+html[data-theme="dark"] .content h6,
+html[data-theme="dark"] .content strong {
+  color: #f0f1f3;
+}
+
+html[data-theme="dark"] .theme-base-urvred .content a {
+  color: #e8a3a3;
+}
+
+html[data-theme="dark"] .coauthor-unlinked {
+  color: #e8a3a3;
+}
+
+html[data-theme="dark"] .content a[style*="color:#000"] {
+  color: #f0f1f3 !important;
+}
+
+html[data-theme="dark"] .content hr {
+  border-top-color: #45494f;
+  border-bottom-color: transparent;
+}
+
+html[data-theme="dark"] .content pre,
+html[data-theme="dark"] .content code,
+html[data-theme="dark"] .content blockquote {
+  background-color: #252830;
+  color: #e3e5e8;
 }
 

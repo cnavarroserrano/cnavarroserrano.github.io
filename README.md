@@ -75,9 +75,12 @@ Para una web de usuario en GitHub Pages, el repositorio suele llamarse
   correspondiente de `index.md`.
 - **Cambiar los datos de contacto o la navegación:** editar
   `_includes/sidebar.html`.
+- **Cambiar Google Scholar u ORCID:** actualizar los enlaces de los iconos en
+  `_includes/sidebar.html`.
 - **Cambiar colores o estilos:** utilizar `public/css/custom.css` para ajustes
   específicos y `public/css/hyde.css` para el tema y el layout general.
-- **Cambiar el favicon:** sustituir `public/favicon.ico`.
+- **Cambiar el favicon:** sustituir `public/favicon-urv.png` o actualizar su
+  referencia en `_includes/head.html`.
 - **Cambiar el dominio:** actualizar `url` en `_config.yml` y editar o
   eliminar `CNAME`, según se utilice o no un dominio propio.
 
@@ -181,8 +184,8 @@ contenido reemplazable de `papers/`, `photos/`, `resume/`, `icons/` o
 - `_includes/icon_link.html`: componente auxiliar para crear enlaces formados
   por un icono y texto.
 - `_includes/mathjax.html`: configura y carga MathJax para mostrar fórmulas.
-- `_includes/sidebar.html`: define el retrato, la identidad, el contacto y la
-  navegación lateral.
+- `_includes/sidebar.html`: define el retrato, la identidad, el contacto, la
+  navegación lateral y los iconos de perfil y tema.
 - `_includes/social_links.html`: genera enlaces sociales cuando existe la
   configuración opcional `site.data.social`.
 
@@ -199,13 +202,16 @@ contenido reemplazable de `papers/`, `photos/`, `resume/`, `icons/` o
 ### Hojas de estilo: `public/css/`
 
 - `public/css/custom.css`: reglas específicas de la página principal, enlaces
-  de artículos y controles de resúmenes.
+  de artículos, controles de resúmenes y modo oscuro.
 - `public/css/hyde.css`: layout general, tipografía Cooper Hewitt, barra
   lateral, temas de color y variantes responsive.
 - `public/css/poole.css`: estilos base para texto, listas, tablas, código,
   páginas, entradas y paginación.
 - `public/css/syntax.css`: colores utilizados para el resaltado de código.
 
-### Recurso técnico
+### Otros recursos técnicos
 
-- `public/favicon.ico`: icono principal mostrado por el navegador.
+- `public/favicon-urv.png`: icono principal mostrado por el navegador.
+- `public/favicon.ico`: versión anterior del icono, conservada como alternativa.
+- `public/js/theme-toggle.js`: cambia entre modos claro y oscuro y recuerda la
+  elección en el navegador.

@@ -5,20 +5,19 @@ text-align: justify
 ---
 
 <!-- Introduction -->
-<h3 id="welcome">Welcome!</h3>
-<br/>
+<h3 id="welcome" class="home-section-title">Welcome!</h3>
 <dl>
   <dd class="indented">
     I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history, and development economics.
+    <br>
     You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
   </dd>
 </dl>
 
 <!-- Working papers -->
 <br/>
-<h3 id="working-papers">Working Papers</h3>
-<br/>
+<h3 id="working-papers" class="home-section-title">Working Papers</h3>
 
 <!-- Each abstract link toggles the panel with the matching id and updates its sign. -->
 <dl>
@@ -91,7 +90,7 @@ text-align: justify
   </dt>
 
   <dd class="indented">
-    <p>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <span style="color: #ac4142;">Begoña Varela Merino</span><br>
+    <p>with <a href="https://miguelalmunia.weebly.com/" target="_blank">Miguel Almunia</a> and <span class="coauthor-unlinked">Begoña Varela Merino</span><br>
     <i>Accepted, <strong style="color: inherit;">SERIEs - Journal of the Spanish Economic Association</strong></i><br>
   </p>  
 
@@ -120,8 +119,7 @@ text-align: justify
 <br/>
 
 <!-- Work in progress -->
-<h3 id="working-in-progress">Work in Progress</h3>
-<br/>
+<h3 id="working-in-progress" class="home-section-title">Work in Progress</h3>
 <dl>
 
   <dt class="indented">
@@ -206,8 +204,7 @@ text-align: justify
 <br/>
 
 <!-- Teaching -->
-<h3 id="teaching">Teaching</h3>
-<br/>
+<h3 id="teaching" class="home-section-title">Teaching</h3>
 <dl>
   <dt class="indented"><strong>Uncertainty and Information (Microeconomics II)</strong></dt>
   <dd class="indented">
@@ -228,8 +225,7 @@ text-align: justify
 <br/>
 
 <!-- Pre-PhD publications -->
-<h3 id="pre-phd-pubs">Pre-PhD Publications</h3>
-<br/>
+<h3 id="pre-phd-pubs" class="home-section-title">Pre-PhD Publications</h3>
 <dl>
   <dt class="indented">
     <strong><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" style="color:#000 !important; text-decoration: none;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></strong>
