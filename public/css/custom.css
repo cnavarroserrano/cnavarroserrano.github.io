@@ -10,7 +10,12 @@
 /* Keep home section headings separated without a full blank line. */
 .home-section-title {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-line {
+  display: block;
+  margin-top: 0.6rem;
 }
 
 /* Keep Font Awesome families scoped to icon classes. */
@@ -98,7 +103,12 @@ html[data-theme="dark"] .coauthor-unlinked {
   color: #e8a3a3;
 }
 
-html[data-theme="dark"] .content a[style*="color:#000"] {
+.content a.pre-phd-title {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .content a.pre-phd-title {
   color: #f0f1f3 !important;
 }
 

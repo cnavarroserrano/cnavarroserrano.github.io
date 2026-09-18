@@ -10,8 +10,7 @@ text-align: justify
   <dd class="indented">
     I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     My research interests lie in political economy, economic history, and development economics.
-    <br>
-    You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.
+    <span class="cv-line">You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.</span>
   </dd>
 </dl>
 
@@ -228,7 +227,7 @@ text-align: justify
 <h3 id="pre-phd-pubs" class="home-section-title">Pre-PhD Publications</h3>
 <dl>
   <dt class="indented">
-    <strong><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" style="color:#000 !important; text-decoration: none;">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></strong>
+    <strong><a href="https://link.springer.com/chapter/10.1007/978-3-030-71044-6_2" target="_blank" class="pre-phd-title">Globalisation and natural resource abundance. Is export diversification possible? A comparison of export composition in Chile and Norway, 1870-2017</a></strong>
   </dt>
   <dd class="indented">
     <p>
