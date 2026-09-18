@@ -75,7 +75,7 @@ Para una web de usuario en GitHub Pages, el repositorio suele llamarse
   correspondiente de `index.md`.
 - **Cambiar los datos de contacto o la navegación:** editar
   `_includes/sidebar.html`.
-- **Cambiar Google Scholar u ORCID:** actualizar los enlaces de los iconos en
+- **Cambiar Google Scholar, ORCID o LinkedIn:** actualizar los enlaces de los iconos en
   `_includes/sidebar.html`.
 - **Cambiar colores o estilos:** utilizar `public/css/custom.css` para ajustes
   específicos y `public/css/hyde.css` para el tema y el layout general.
