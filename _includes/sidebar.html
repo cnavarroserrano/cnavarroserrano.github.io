@@ -107,6 +107,17 @@
     }
   }
 
+  /* A zoomed desktop can have phone-like width but a landscape viewport. */
+  @media (max-width: 520px) and (min-aspect-ratio: 1/1) {
+    .sidebar .sidebar-photo {
+      width: auto;
+      max-width: 100%;
+      height: min(55vh, 520px);
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  }
+
   /* Keep the portrait and bio in separate rows on desktop. */
   @media (min-width: 65em) {
     :root {
