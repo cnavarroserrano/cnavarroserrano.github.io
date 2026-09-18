@@ -39,6 +39,13 @@
     }
   }
 
+  /* Show more of the portrait on portrait-oriented touch tablets without hiding the navigation. */
+  @media (min-width: 521px) and (max-width: 64.999em) and (min-height: 700px) and (max-aspect-ratio: 1/1) and (hover: none) and (pointer: coarse) {
+    .sidebar .sidebar-photo {
+      height: min(75vh, 680px, calc(100dvh - 17rem));
+    }
+  }
+
   .sidebar-about {
     display: flow-root; /* Prevents the heading margin from collapsing upward. */
     padding: 14px 20px 0 !important;
@@ -106,12 +113,12 @@
     }
   }
 
-  /* On a heavily zoomed desktop, show the whole portrait without changing touch layouts. */
+  /* On a heavily zoomed desktop, keep the portrait complete and leave room for the bio. */
   @media (max-width: 64.999em) and (max-height: 600px) and (min-aspect-ratio: 3/2) and (hover: hover) and (pointer: fine) {
     .sidebar .sidebar-photo {
       width: auto;
       max-width: 100%;
-      height: min(80vh, 520px);
+      height: min(80vh, 520px, max(10rem, calc(100dvh - 16.25rem)));
       margin: 0 auto;
       object-fit: contain;
       object-position: center top;
