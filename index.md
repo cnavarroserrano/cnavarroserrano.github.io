@@ -8,8 +8,10 @@ text-align: justify
 <h3 id="welcome" class="home-section-title">Welcome!</h3>
 <dl>
   <dd class="indented">
-    I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
+    I am an Assistant Professor in the <a href="https://www.de.urv.cat/en/" target="_blank" rel="noopener noreferrer">Department of Economics</a> at <a href="https://www.urv.cat/en/" target="_blank" rel="noopener noreferrer">Universitat Rovira i Virgili</a>. I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
+    <br>
     My research interests lie in political economy, economic history, and development economics.
+    <br>
     <span class="cv-line">You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.</span>
   </dd>
 </dl>
@@ -238,5 +240,67 @@ text-align: justify
 </dl>
 
 ---
-<sup><sub>Built based on <a href="https://github.com/poole/hyde" target="_blank">Hyde Jekyll theme</a>. Cooper Hewitt <a href="https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/" target="_blank">typeface</a> by Chester Jenkins.<sub><sup>
+<style>
+  .site-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: -3rem;
+    padding-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .site-footer-logo {
+    display: block;
+    width: min(100%, 220px);
+  }
+
+  .site-footer-logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .site-footer-logo .site-footer-logo-dark,
+  html[data-theme="dark"] .site-footer-logo .site-footer-logo-light {
+    display: none;
+  }
+
+  html[data-theme="dark"] .site-footer-logo .site-footer-logo-dark {
+    display: block;
+  }
+
+  .site-footer-credit {
+    text-align: right;
+  }
+
+  @media (max-width: 40em) {
+    .site-footer {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .site-footer-logo {
+      margin: 0 auto;
+    }
+
+    .site-footer-credit {
+      text-align: center;
+    }
+  }
+</style>
+
+<footer class="site-footer">
+  <a class="site-footer-logo" href="https://www.urv.cat/en/" target="_blank" rel="noopener noreferrer" aria-label="Universitat Rovira i Virgili">
+    <img class="site-footer-logo-light" src="{{ '/photos/urv_logo_red_horizontal.png' | relative_url }}" alt="Universitat Rovira i Virgili">
+    <img class="site-footer-logo-dark" src="{{ '/photos/urv_logo_white_horizontal.png' | relative_url }}" alt="Universitat Rovira i Virgili">
+  </a>
+  <div class="site-footer-credit">
+    Built based on <a href="https://github.com/poole/hyde" target="_blank">Hyde Jekyll theme</a>.<br>
+    Cooper Hewitt <a href="https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/" target="_blank">typeface</a> by Chester Jenkins.
+  </div>
+</footer>
 
