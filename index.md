@@ -11,7 +11,7 @@ text-align: justify
     I am an Assistant Professor in the <a href="https://www.de.urv.cat/en/" target="_blank" rel="noopener noreferrer">Department of Economics</a> at <a href="https://www.urv.cat/en/" target="_blank" rel="noopener noreferrer">Universitat Rovira i Virgili</a>.
     <br>
     I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
-    <span class="intro-spaced-line">My research interests lie in political economy, economic history, and development economics.</span>
+    <span class="intro-spaced-line">My research interests lie in political economy, economic history, and development economics.
     <span class="intro-spaced-line">You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.</span>
   </dd>
 </dl>
