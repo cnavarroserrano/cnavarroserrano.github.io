@@ -27,7 +27,7 @@ text-align: justify
   </dt>
 
   <dd class="indented">
-    <p>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a></p>
+    <p>with <a href="https://ricardgrebol.com/" target="_blank">Ricard Grebol</a></p>
 
   <p class="paper-row" style="margin:1px 0 0;">
     <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
@@ -184,7 +184,7 @@ text-align: justify
     <strong>The Political and Economic Costs of Armed Nationalism: Evidence from ETA and the Basque Country</strong>
   </dt>
   <dd class="indented">
-    <p><i>with <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-1508" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
+    <p><i>with <a href="https://ricardgrebol.com/" target="_blank">Ricard Grebol</a> and <a href="https://www.lucarepetto.com/" target="_blank">Luca Repetto</a></i></p>
   </dd>
 
 </dl>
