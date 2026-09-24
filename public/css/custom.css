@@ -18,6 +18,11 @@
   margin-top: 0.6rem;
 }
 
+.local-title {
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
 /* Keep Font Awesome families scoped to icon classes. */
 .fa-solid,
 .fa-regular {
