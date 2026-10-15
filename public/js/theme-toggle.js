@@ -3,10 +3,16 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!button) return;
 
   const icon = button.querySelector('i');
+  const labels = {
+    en: ['Switch to dark mode', 'Switch to light mode'],
+    es: ['Cambiar al modo oscuro', 'Cambiar al modo claro'],
+    ca: ['Canvia al mode fosc', 'Canvia al mode clar']
+  };
+  const [darkLabel, lightLabel] = labels[document.documentElement.lang] || labels.en;
 
   function updateButton() {
     const dark = document.documentElement.dataset.theme === 'dark';
-    const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+    const label = dark ? lightLabel : darkLabel;
     button.setAttribute('aria-label', label);
     button.setAttribute('aria-pressed', String(dark));
     button.title = label;

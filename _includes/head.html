@@ -4,6 +4,13 @@
   <!-- Metadata and mobile viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  {% if page.lang %}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
+  <link rel="alternate" hreflang="ca" href="{{ '/ca/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {% endif %}
+
   <!-- Blog tag infrastructure -->
   {% if site.tags != "" %}
     {% include collecttags.html %}
@@ -11,7 +18,7 @@
 
   <title>
     {% assign tl = site.tagline | to_s | strip %}
-    {% if page.url == "/" %}
+    {% if page.lang or page.url == "/" %}
       {{ site.title }}{% if tl != "" %} | {{ tl }}{% endif %}
     {% else %}
       {{ page.title | default: site.title }}

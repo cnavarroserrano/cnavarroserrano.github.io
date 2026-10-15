@@ -189,9 +189,39 @@
 
 </style>
 
+{% assign page_lang = page.lang | default: 'en' %}
+{% case page_lang %}
+  {% when 'es' %}
+    {% assign home_path = '/es/' %}
+    {% assign urv_path = 'https://www.urv.cat/es/' %}
+    {% assign sidebar_role = 'Profesor Lector' %}
+    {% assign sidebar_about = 'Sobre mí' %}
+    {% assign sidebar_research = 'Investigación' %}
+    {% assign sidebar_teaching = 'Docencia' %}
+    {% assign portrait_label = 'Retrato de Cristian Navarro' %}
+    {% assign actions_label = 'Perfiles académicos y ajustes de visualización' %}
+  {% when 'ca' %}
+    {% assign home_path = '/ca/' %}
+    {% assign urv_path = 'https://www.urv.cat/ca/' %}
+    {% assign sidebar_role = 'Professor Lector' %}
+    {% assign sidebar_about = 'Sobre mi' %}
+    {% assign sidebar_research = 'Recerca' %}
+    {% assign sidebar_teaching = 'Docència' %}
+    {% assign portrait_label = 'Retrat de Cristian Navarro' %}
+    {% assign actions_label = 'Perfils acadèmics i opcions de visualització' %}
+  {% else %}
+    {% assign home_path = '/' %}
+    {% assign urv_path = 'https://www.urv.cat/en/' %}
+    {% assign sidebar_role = 'Assistant Professor' %}
+    {% assign sidebar_about = 'About' %}
+    {% assign sidebar_research = 'Research' %}
+    {% assign sidebar_teaching = 'Teaching' %}
+    {% assign portrait_label = 'Portrait of Cristian Navarro' %}
+    {% assign actions_label = 'Academic profiles and display settings' %}
+{% endcase %}
 <div class="sidebar">
   <div class="sidebar-inner">
-    <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="Portrait of Cristian Navarro">
+    <img src="/photos/portrait_main_adjustedside.jpg" class="sidebar-photo" alt="{{ portrait_label }}">
     <div class="sidebar-about">
       <!-- Alternative logo retained for possible future use:
       <img
@@ -200,18 +230,18 @@
         alt="Alternative logo"
       >
       -->
-      <a href="https://cnavarroserrano.github.io/" style="color: white;">
+      <a href="{{ home_path | relative_url }}" style="color: white;">
         <h1 style="color: white; font-size: 2.2rem; margin-bottom: 1px;">CRISTIAN NAVARRO</h1>
       </a>
       <p class="lead" style="font-size: 0.9rem">
-        Assistant Professor,
+        {{ sidebar_role }},
         <br>
-        <a href="https://www.urv.cat/en/" target="_blank" rel="noopener noreferrer">Universitat Rovira i Virgili</a>
+        <a href="{{ urv_path }}" target="_blank" rel="noopener noreferrer">Universitat Rovira i Virgili</a>
         <br>
         <a href="mailto:cristian.navarro@urv.cat">cristian.navarro@urv.cat</a>
       </p>
 
-      <div class="sidebar-actions" aria-label="Academic profiles and display settings">
+      <div class="sidebar-actions" aria-label="{{ actions_label }}">
         <a href="https://scholar.google.com/citations?user=0TqsQNMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar">
           <img src="{{ '/icons/google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
         </a>
@@ -228,11 +258,11 @@
 
       <!-- Section navigation -->
       <span style="display: block; height: 0.5em;"></span>
-      <a href="#welcome">About</a>
+      <a href="#welcome">{{ sidebar_about }}</a>
       <br>
-      <a href="#working-papers">Research</a>
+      <a href="#working-papers">{{ sidebar_research }}</a>
       <br>
-      <a href="#teaching">Teaching</a>
+      <a href="#teaching">{{ sidebar_teaching }}</a>
     </div>
   </div>
 </div>

@@ -1,0 +1,7 @@
+<nav class="language-switcher" aria-label="Language / Idioma / Llengua">
+  {% if page.lang == 'en' %}<span aria-current="page">English</span>{% else %}<a href="{{ '/' | relative_url }}" lang="en">English</a>{% endif %}
+  <span aria-hidden="true">|</span>
+  {% if page.lang == 'es' %}<span aria-current="page">Español</span>{% else %}<a href="{{ '/es/' | relative_url }}" lang="es">Español</a>{% endif %}
+  <span aria-hidden="true">|</span>
+  {% if page.lang == 'ca' %}<span aria-current="page">Català</span>{% else %}<a href="{{ '/ca/' | relative_url }}" lang="ca">Català</a>{% endif %}
+</nav>
