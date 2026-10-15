@@ -1,11 +1,8 @@
 ---
 layout: default
 title: Home
-lang: en
 text-align: justify
 ---
-
-{% include language_switcher.html %}
 
 <!-- Introduction -->
 <h3 id="welcome" class="home-section-title">Welcome!</h3>
@@ -14,7 +11,7 @@ text-align: justify
     I am an Assistant Professor (<i>Professor Lector</i>) in the <a href="https://www.de.urv.cat/en/" target="_blank" rel="noopener noreferrer">Department of Economics</a> at <a href="https://www.urv.cat/en/" target="_blank" rel="noopener noreferrer">Universitat Rovira i Virgili</a>.
     I hold a PhD in Economics from <a href="https://cemfi.es" target="_blank">CEMFI</a>.
     <span class="intro-spaced-line">My research interests lie in political economy, economic history, and development economics.</span>
-    <span class="intro-spaced-line">You can find my <strong><a href="{{ '/resume/cv_cnavarro.pdf' | relative_url }}" target="_blank">CV (English)</a></strong> here.</span>
+    <span class="intro-spaced-line">You can find my <strong><a href="resume/cv_cnavarro.pdf" target="_blank">CV here</a></strong>.</span>
   </dd>
 </dl>
 
@@ -33,7 +30,7 @@ text-align: justify
     <p>with <a href="https://ricardgrebol.com/" target="_blank">Ricard Grebol</a></p>
 
   <p class="paper-row" style="margin:1px 0 0;">
-    <a class="paper" href="{{ '/papers/jmp_navarro_autocrats_remake_state.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/jmp_navarro_autocrats_remake_state.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
     <span>|</span>
@@ -65,7 +62,7 @@ text-align: justify
   </p>
 
   <p class="paper-row" style="margin:1px 0 0;">
-    <a class="paper" href="{{ '/papers/WP_seedsofprejudice_may26.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/WP_seedsofprejudice_may26.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
     <span>|</span>
@@ -98,7 +95,7 @@ text-align: justify
   </p>  
 
   <p class="paper-row" style="margin:1px 0 0;">
-    <a class="paper" href="{{ '/papers/WP_RCT_homelessness.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/WP_RCT_homelessness.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Draft
     </a>
     <span>|</span>
@@ -132,7 +129,7 @@ text-align: justify
     <p><i>with <a href="https://pelloaspuru.github.io/" target="_blank">Pello Aspuru</a></i></p>
   
   <p class="paper-row" style="margin:1px 0 0;">
-    <a class="paper" href="{{ '/papers/workprogress_ballots_slides_columbia.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="paper" href="papers/workprogress_ballots_slides_columbia.pdf" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-file" aria-hidden="true"></i>Slides
     </a>
     <span>|</span>

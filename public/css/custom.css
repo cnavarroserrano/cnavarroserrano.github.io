@@ -1,34 +1,4 @@
 /* Home page spacing */
-.language-switcher {
-  margin-bottom: 1.5rem;
-  text-align: right;
-  font-size: 0.8rem;
-  white-space: nowrap;
-}
-
-.theme-base-urvred .content .language-switcher a {
-  color: #666;
-  text-decoration: none;
-}
-
-.theme-base-urvred .content .language-switcher [aria-current="page"] {
-  color: #90292a;
-  font-weight: 600;
-}
-
-.language-switcher a:hover,
-.language-switcher a:focus-visible {
-  text-decoration: underline !important;
-}
-
-html[data-theme="dark"] .theme-base-urvred .content .language-switcher a {
-  color: #d9dde2;
-}
-
-html[data-theme="dark"] .theme-base-urvred .content .language-switcher [aria-current="page"] {
-  color: #e8a3a3;
-}
-
 .indented {
   margin-left: 2.5em;
 }
